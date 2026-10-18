@@ -6,7 +6,8 @@ Věda Célestes is the calculation and publication component of the broader Tani
 Věda Célestes local engine
   -> precomputed dated JSON and manifest
   -> https://veda-celestes.pages.dev
-  -> main website horoscope adapter (not yet implemented)
+  -> main website horoscope adapter at /api/horoscope/today
+  -> https://tanishaksamudr.com/corps-celestes
 ```
 
 ## Feed contract
@@ -17,7 +18,7 @@ Věda Célestes local engine
 4. Read `editions.vedic`, `editions.western` or `editions.arabic`. Each includes date, 12 sign entries and calculated details. The feed also includes public location/time reference and model provenance.
 5. Validate schema version and date. Retain the last valid edition on errors and label its age explicitly. Never relabel an old edition as current.
 
-For the initial release the current main-site dated Markdown loader is still active. This publication does not switch it over. The future website adapter must map these structured fields rather than assume they have exactly the same schema as the existing horoscope endpoint.
+The main-site adapter validates and maps these structured fields for the Vedic, Western and Arabic tabs. The Daily tab retains its editorial Markdown loader. Calculated editions show astronomical reference metrics rather than invented ratings. On feed failure, Vedic and Arabic may show explicitly labeled dated editorial fallback; Western returns an unavailable state. The browser can retain a clearly stale cached edition. The feed contains initial calculation commentary, not personalised predictions.
 
 Browser requests to public feed JSON are allowed through explicit CORS headers. This does not expose a private calculation service. No main-site credentials, birth records or production configuration belong in this repository.
 
