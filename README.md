@@ -4,7 +4,7 @@
 
 Public static exhibition: https://veda-celestes.pages.dev/
 
-License: AGPL-3.0. See LICENSE and THIRD_PARTY.md. Main-site integration is documented in COMPOSITE.md and is not yet activated.
+License: AGPL-3.0. See LICENSE and THIRD_PARTY.md. Live daily-feed integration and the browser chart component are documented in COMPOSITE.md and browser/README.md.
 
 ## Design principles
 
@@ -29,4 +29,4 @@ Do not commit secrets, site configuration, personal birth data, consultation rec
 
 ## Website integration
 
-The TanishaKsamudr site will consume published calculation results through a dedicated adapter. It will not embed engine credentials or retain personal chart inputs in client storage.
+The TanishaKsamudr site consumes dated calculation feeds through a dedicated adapter. Its Věda Célestes tab runs the self-hosted WebAssembly chart engine in a local Web Worker. It does not embed engine credentials, transmit birth details to a server or retain personal chart inputs in client storage.

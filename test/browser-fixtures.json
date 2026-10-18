@@ -1,0 +1,4642 @@
+[
+  {
+    "input": {
+      "date": "1800-01-12",
+      "time": "12:00",
+      "timezone": "UTC",
+      "latitude": 0,
+      "longitude": 0
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "1800-01-12T12:00:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 292.1478477490748,
+            "sign": "Capricorn",
+            "degree": 22.1478477490748,
+            "speed": 1.0183153762769195,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 128.88100509272695,
+            "sign": "Leo",
+            "degree": 8.881005092726951,
+            "speed": 13.099324816740388,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 268.6730621887863,
+            "sign": "Sagittarius",
+            "degree": 28.673062188786275,
+            "speed": 0.7100720784220381,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 245.98167690400598,
+            "sign": "Sagittarius",
+            "degree": 5.98167690400598,
+            "speed": 1.100223332344623,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 252.3529750288826,
+            "sign": "Sagittarius",
+            "degree": 12.35297502888261,
+            "speed": 0.70012235273195,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 83.19761606548721,
+            "sign": "Gemini",
+            "degree": 23.19761606548721,
+            "speed": -0.10363122965130422,
+            "retrograde": true
+          },
+          "saturn": {
+            "longitude": 127.96818101572737,
+            "sign": "Leo",
+            "degree": 7.968181015727367,
+            "speed": -0.07701421205631456,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 177.06954066166446,
+            "sign": "Virgo",
+            "degree": 27.069540661664462,
+            "speed": -0.010240859621214066,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 226.87978033550436,
+            "sign": "Scorpio",
+            "degree": 16.879780335504364,
+            "speed": 0.019701463537383106,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 331.6496271144322,
+            "sign": "Pisces",
+            "degree": 1.6496271144321781,
+            "speed": 0.022432501219381163,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 32.63484693349532,
+            "sign": "Taurus",
+            "degree": 2.634846933495318,
+            "speed": -0.052931741293051345,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 23.48855979349097,
+          "sign": "Aries",
+          "degree": 23.48855979349097
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "uranus"
+            ],
+            "aspect": "trine",
+            "orb": 4.921692912589663
+          },
+          {
+            "bodies": [
+              "sun",
+              "neptune"
+            ],
+            "aspect": "sextile",
+            "orb": 5.268067413570435
+          },
+          {
+            "bodies": [
+              "moon",
+              "venus"
+            ],
+            "aspect": "trine",
+            "orb": 2.899328188720972
+          },
+          {
+            "bodies": [
+              "moon",
+              "mars"
+            ],
+            "aspect": "trine",
+            "orb": 3.4719699361556593
+          },
+          {
+            "bodies": [
+              "moon",
+              "saturn"
+            ],
+            "aspect": "conjunction",
+            "orb": 0.9128240769995841
+          },
+          {
+            "bodies": [
+              "mercury",
+              "jupiter"
+            ],
+            "aspect": "opposition",
+            "orb": 5.475446123299093
+          },
+          {
+            "bodies": [
+              "mercury",
+              "uranus"
+            ],
+            "aspect": "square",
+            "orb": 1.6035215271218135
+          },
+          {
+            "bodies": [
+              "mercury",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 2.976564925645903
+          },
+          {
+            "bodies": [
+              "venus",
+              "saturn"
+            ],
+            "aspect": "trine",
+            "orb": 1.9865041117213877
+          },
+          {
+            "bodies": [
+              "venus",
+              "pluto"
+            ],
+            "aspect": "square",
+            "orb": 4.3320497895738015
+          },
+          {
+            "bodies": [
+              "mars",
+              "saturn"
+            ],
+            "aspect": "trine",
+            "orb": 4.384794013155215
+          },
+          {
+            "bodies": [
+              "jupiter",
+              "uranus"
+            ],
+            "aspect": "square",
+            "orb": 3.8719245961772515
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 21.0650414793429,
+        "planets": {
+          "sun": {
+            "longitude": 271.0850029042189,
+            "sign": "Capricorn",
+            "degree": 1.0850029042189249,
+            "speed": 1.018254854265432,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 107.81816024787109,
+            "sign": "Cancer",
+            "degree": 17.81816024787109,
+            "speed": 13.099263257387909,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 247.61021734393046,
+            "sign": "Sagittarius",
+            "degree": 7.610217343930458,
+            "speed": 0.7100115401177776,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 224.91883205915013,
+            "sign": "Scorpio",
+            "degree": 14.918832059150134,
+            "speed": 1.100162395251724,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 231.29013018402676,
+            "sign": "Scorpio",
+            "degree": 21.290130184026765,
+            "speed": 0.7000618314022019,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 62.13477122063135,
+            "sign": "Gemini",
+            "degree": 2.1347712206313503,
+            "speed": -0.1036917623074097,
+            "retrograde": true
+          },
+          "saturn": {
+            "longitude": 106.90533617087151,
+            "sign": "Cancer",
+            "degree": 16.905336170871507,
+            "speed": -0.07707487435824359,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 156.00669581680862,
+            "sign": "Virgo",
+            "degree": 6.006695816808616,
+            "speed": -0.010301638357453721,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 205.81693549064843,
+            "sign": "Libra",
+            "degree": 25.816935490648433,
+            "speed": 0.019640543963407094,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 310.58678226957636,
+            "sign": "Aquarius",
+            "degree": 10.58678226957636,
+            "speed": 0.02236840818983603,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 11.572002088639453,
+            "sign": "Aries",
+            "degree": 11.572002088639453,
+            "speed": -0.05299226331014195,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 191.57200208863947,
+            "sign": "Libra",
+            "degree": 11.572002088639465
+          }
+        },
+        "panchanga": {
+          "tithi": 17,
+          "paksha": "krishna",
+          "nakshatra": 9,
+          "pada": 1,
+          "yoga": 2,
+          "karanaHalfTithi": 33
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "day",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 220.22171713714312,
+          "sign": "Scorpio",
+          "degree": 10.221717137143116
+        },
+        "spirit": {
+          "longitude": 186.7554024498388,
+          "sign": "Libra",
+          "degree": 6.755402449838812
+        },
+        "lunarMansion": 11
+      },
+      "siderealAscendant": 2.425714948298335
+    }
+  },
+  {
+    "input": {
+      "date": "1850-06-15",
+      "time": "03:15",
+      "timezone": "UTC",
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "1850-06-15T03:15:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 83.61048371298018,
+            "sign": "Gemini",
+            "degree": 23.610483712980184,
+            "speed": 0.9548192813941054,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 150.27298583131443,
+            "sign": "Virgo",
+            "degree": 0.2729858313144291,
+            "speed": 14.23311980607996,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 76.43154795996378,
+            "sign": "Gemini",
+            "degree": 16.43154795996378,
+            "speed": -0.4460615742713928,
+            "retrograde": true
+          },
+          "venus": {
+            "longitude": 110.20967360922435,
+            "sign": "Cancer",
+            "degree": 20.209673609224353,
+            "speed": 1.2085026489097628,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 137.55649762788272,
+            "sign": "Leo",
+            "degree": 17.55649762788272,
+            "speed": 0.5843322458198286,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 164.96848686516256,
+            "sign": "Virgo",
+            "degree": 14.96848686516256,
+            "speed": 0.09962969736320883,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 19.054638969495024,
+            "sign": "Aries",
+            "degree": 19.054638969495024,
+            "speed": 0.0762324438175337,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 29.275287537083354,
+            "sign": "Aries",
+            "degree": 29.275287537083354,
+            "speed": 0.038534473201442966,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 337.04027737351936,
+            "sign": "Pisces",
+            "degree": 7.040277373519359,
+            "speed": -0.002990491193743265,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 29.51317708790786,
+            "sign": "Aries",
+            "degree": 29.51317708790786,
+            "speed": 0.014805635329113507,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 137.45287232247864,
+            "sign": "Leo",
+            "degree": 17.45287232247864,
+            "speed": -0.05295422074780216,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 74.48178756636216,
+          "sign": "Gemini",
+          "degree": 14.481787566362158
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "saturn"
+            ],
+            "aspect": "sextile",
+            "orb": 4.555844743485153
+          },
+          {
+            "bodies": [
+              "sun",
+              "uranus"
+            ],
+            "aspect": "sextile",
+            "orb": 5.66480382410316
+          },
+          {
+            "bodies": [
+              "sun",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 5.902693374927679
+          },
+          {
+            "bodies": [
+              "moon",
+              "uranus"
+            ],
+            "aspect": "trine",
+            "orb": 0.9976982942310997
+          },
+          {
+            "bodies": [
+              "moon",
+              "pluto"
+            ],
+            "aspect": "trine",
+            "orb": 0.7598087434065519
+          },
+          {
+            "bodies": [
+              "mercury",
+              "mars"
+            ],
+            "aspect": "sextile",
+            "orb": 1.1249496679189406
+          },
+          {
+            "bodies": [
+              "mercury",
+              "jupiter"
+            ],
+            "aspect": "square",
+            "orb": 1.463061094801219
+          },
+          {
+            "bodies": [
+              "mercury",
+              "saturn"
+            ],
+            "aspect": "sextile",
+            "orb": 2.6230910095312368
+          },
+          {
+            "bodies": [
+              "venus",
+              "jupiter"
+            ],
+            "aspect": "sextile",
+            "orb": 5.2411867440617925
+          },
+          {
+            "bodies": [
+              "venus",
+              "saturn"
+            ],
+            "aspect": "square",
+            "orb": 1.1550346397293652
+          },
+          {
+            "bodies": [
+              "mars",
+              "saturn"
+            ],
+            "aspect": "trine",
+            "orb": 1.4981413416122678
+          },
+          {
+            "bodies": [
+              "uranus",
+              "pluto"
+            ],
+            "aspect": "conjunction",
+            "orb": 0.23788955082449093
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 21.76880097421729,
+        "planets": {
+          "sun": {
+            "longitude": 61.84496331224956,
+            "sign": "Gemini",
+            "degree": 1.8449633122495612,
+            "speed": 0.9547813865295244,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 128.50746543058384,
+            "sign": "Leo",
+            "degree": 8.507465430583835,
+            "speed": 14.233081671932784,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 54.66602755923315,
+            "sign": "Taurus",
+            "degree": 24.66602755923315,
+            "speed": -0.446099677800339,
+            "retrograde": true
+          },
+          "venus": {
+            "longitude": 88.44415320849373,
+            "sign": "Gemini",
+            "degree": 28.44415320849373,
+            "speed": 1.208464633868049,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 115.79097722715211,
+            "sign": "Cancer",
+            "degree": 25.790977227152112,
+            "speed": 0.5842941396208426,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 143.20296646443194,
+            "sign": "Leo",
+            "degree": 23.202966464431938,
+            "speed": 0.09959153764881153,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 357.28911856876437,
+            "sign": "Pisces",
+            "degree": 27.289118568764366,
+            "speed": 0.07619406350105812,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 7.509767136352731,
+            "sign": "Aries",
+            "degree": 7.509767136352731,
+            "speed": 0.03849647539433691,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 315.27475697278874,
+            "sign": "Aquarius",
+            "degree": 15.274756972788737,
+            "speed": -0.0030285386188858756,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 7.74765668717723,
+            "sign": "Aries",
+            "degree": 7.74765668717723,
+            "speed": 0.014764495782712604,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 115.68735192174802,
+            "sign": "Cancer",
+            "degree": 25.687351921748018,
+            "speed": -0.052992115550965405,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 295.687351921748,
+            "sign": "Capricorn",
+            "degree": 25.687351921748018
+          }
+        },
+        "panchanga": {
+          "tithi": 6,
+          "paksha": "shukla",
+          "nakshatra": 10,
+          "pada": 3,
+          "yoga": 15,
+          "karanaHalfTithi": 12
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "night",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 7.819285448027912,
+          "sign": "Aries",
+          "degree": 7.819285448027912
+        },
+        "spirit": {
+          "longitude": 141.1442896846964,
+          "sign": "Leo",
+          "degree": 21.14428968469639
+        },
+        "lunarMansion": 12
+      },
+      "siderealAscendant": 52.71626716553555
+    }
+  },
+  {
+    "input": {
+      "date": "1900-01-01",
+      "time": "00:00",
+      "timezone": "UTC",
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "1900-01-01T00:00:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 280.15336162832176,
+            "sign": "Capricorn",
+            "degree": 10.153361628321761,
+            "speed": 1.0198476838478658,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 272.41637255213647,
+            "sign": "Capricorn",
+            "degree": 2.4163725521364654,
+            "speed": 14.322770615074429,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 258.9977739983535,
+            "sign": "Sagittarius",
+            "degree": 18.997773998353523,
+            "speed": 1.2765940209408067,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 306.3744511793364,
+            "sign": "Aquarius",
+            "degree": 6.374451179336404,
+            "speed": 1.243506731800828,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 283.8677417734439,
+            "sign": "Capricorn",
+            "degree": 13.867741773443925,
+            "speed": 0.7704228299727478,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 241.13590836677633,
+            "sign": "Sagittarius",
+            "degree": 1.1359083667763343,
+            "speed": 0.19562156693030244,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 267.71681085249736,
+            "sign": "Sagittarius",
+            "degree": 27.71681085249736,
+            "speed": 0.11635984158032743,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 250.13919985768717,
+            "sign": "Sagittarius",
+            "degree": 10.139199857687174,
+            "speed": 0.05535923814145781,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 85.21875387927146,
+            "sign": "Gemini",
+            "degree": 25.21875387927146,
+            "speed": -0.027201108956736567,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 75.25136809770251,
+            "sign": "Gemini",
+            "degree": 15.25136809770251,
+            "speed": -0.01726760045679159,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 259.161307149702,
+            "sign": "Sagittarius",
+            "degree": 19.161307149701997,
+            "speed": -0.052905617850788074,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 344.322397243068,
+          "sign": "Pisces",
+          "degree": 14.322397243067996
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          330.0,
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "mars"
+            ],
+            "aspect": "conjunction",
+            "orb": 3.7143801451221634
+          },
+          {
+            "bodies": [
+              "moon",
+              "saturn"
+            ],
+            "aspect": "conjunction",
+            "orb": 4.699561699639105
+          },
+          {
+            "bodies": [
+              "mercury",
+              "pluto"
+            ],
+            "aspect": "opposition",
+            "orb": 3.746405900650984
+          },
+          {
+            "bodies": [
+              "venus",
+              "jupiter"
+            ],
+            "aspect": "sextile",
+            "orb": 5.23854281256007
+          },
+          {
+            "bodies": [
+              "venus",
+              "uranus"
+            ],
+            "aspect": "sextile",
+            "orb": 3.76474867835077
+          },
+          {
+            "bodies": [
+              "saturn",
+              "neptune"
+            ],
+            "aspect": "opposition",
+            "orb": 2.498056973225914
+          },
+          {
+            "bodies": [
+              "uranus",
+              "pluto"
+            ],
+            "aspect": "opposition",
+            "orb": 5.112168240015308
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 22.46053059238814,
+        "planets": {
+          "sun": {
+            "longitude": 257.68798840480986,
+            "sign": "Sagittarius",
+            "degree": 17.687988404809857,
+            "speed": 1.0197612007215249,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 249.95099932862456,
+            "sign": "Sagittarius",
+            "degree": 9.950999328624562,
+            "speed": 14.322684134661808,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 236.53240077484156,
+            "sign": "Scorpio",
+            "degree": 26.532400774841562,
+            "speed": 1.2765075252610907,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 283.9090779558245,
+            "sign": "Capricorn",
+            "degree": 13.9090779558245,
+            "speed": 1.2434201903754027,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 261.402368549932,
+            "sign": "Sagittarius",
+            "degree": 21.40236854993202,
+            "speed": 0.770336333869013,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 218.67053514326443,
+            "sign": "Scorpio",
+            "degree": 8.67053514326443,
+            "speed": 0.1955350609030987,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 245.2514376289854,
+            "sign": "Sagittarius",
+            "degree": 5.2514376289854,
+            "speed": 0.11627335610547815,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 227.67382663417524,
+            "sign": "Scorpio",
+            "degree": 17.673826634175242,
+            "speed": 0.05527275375667696,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 62.75338065575955,
+            "sign": "Gemini",
+            "degree": 2.7533806557595497,
+            "speed": -0.027287598415327054,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 52.785994874190585,
+            "sign": "Taurus",
+            "degree": 22.785994874190585,
+            "speed": -0.017354230182719255,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 236.69593392619007,
+            "sign": "Scorpio",
+            "degree": 26.695933926190065,
+            "speed": -0.05299210098208528,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 56.69593392619004,
+            "sign": "Taurus",
+            "degree": 26.695933926190037
+          }
+        },
+        "panchanga": {
+          "tithi": 30,
+          "paksha": "krishna",
+          "nakshatra": 19,
+          "pada": 3,
+          "yoga": 12,
+          "karanaHalfTithi": 59
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "day",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 336.5854081668827,
+          "sign": "Pisces",
+          "degree": 6.585408166882701
+        },
+        "spirit": {
+          "longitude": 352.0593863192533,
+          "sign": "Pisces",
+          "degree": 22.059386319253292
+        },
+        "lunarMansion": 22
+      },
+      "siderealAscendant": 321.85702401949544
+    }
+  },
+  {
+    "input": {
+      "date": "1950-11-21",
+      "time": "22:45",
+      "timezone": "UTC",
+      "latitude": 40.7128,
+      "longitude": -74.006
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "1950-11-21T22:45:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 239.06182123749363,
+            "sign": "Scorpio",
+            "degree": 29.061821237493632,
+            "speed": 1.0099207122574982,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 29.812533863767616,
+            "sign": "Aries",
+            "degree": 29.812533863767616,
+            "speed": 11.961784924260723,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 250.47004982064834,
+            "sign": "Sagittarius",
+            "degree": 10.470049820648342,
+            "speed": 1.5228447219458858,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 241.03131161103838,
+            "sign": "Sagittarius",
+            "degree": 1.031311611038376,
+            "speed": 1.2563913601472951,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 281.8775186862218,
+            "sign": "Capricorn",
+            "degree": 11.877518686221777,
+            "speed": 0.7650323363568217,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 328.9469566464034,
+            "sign": "Aquarius",
+            "degree": 28.946956646403407,
+            "speed": 0.09254960376603898,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 180.10814789093016,
+            "sign": "Libra",
+            "degree": 0.1081478909301552,
+            "speed": 0.0831389455973364,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 98.90863042255265,
+            "sign": "Cancer",
+            "degree": 8.908630422552648,
+            "speed": -0.02996551869622078,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 198.5568383404883,
+            "sign": "Libra",
+            "degree": 18.556838340488298,
+            "speed": 0.03003563864593237,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 139.86120864117433,
+            "sign": "Leo",
+            "degree": 19.86120864117433,
+            "speed": -0.0001353372648427328,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 354.9059963074009,
+            "sign": "Pisces",
+            "degree": 24.905996307400926,
+            "speed": -0.05296179800598827,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 79.9852378007821,
+          "sign": "Gemini",
+          "degree": 19.9852378007821
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "venus"
+            ],
+            "aspect": "conjunction",
+            "orb": 1.969490373544744
+          },
+          {
+            "bodies": [
+              "sun",
+              "jupiter"
+            ],
+            "aspect": "square",
+            "orb": 0.11486459109022462
+          },
+          {
+            "bodies": [
+              "sun",
+              "saturn"
+            ],
+            "aspect": "sextile",
+            "orb": 1.0463266534365232
+          },
+          {
+            "bodies": [
+              "moon",
+              "jupiter"
+            ],
+            "aspect": "sextile",
+            "orb": 0.8655772173642049
+          },
+          {
+            "bodies": [
+              "venus",
+              "jupiter"
+            ],
+            "aspect": "square",
+            "orb": 2.0843549646349686
+          },
+          {
+            "bodies": [
+              "venus",
+              "saturn"
+            ],
+            "aspect": "sextile",
+            "orb": 0.9231637201082208
+          },
+          {
+            "bodies": [
+              "mars",
+              "uranus"
+            ],
+            "aspect": "opposition",
+            "orb": 2.9688882636691005
+          },
+          {
+            "bodies": [
+              "neptune",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 1.3043703006860312
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 23.17114997422436,
+        "planets": {
+          "sun": {
+            "longitude": 215.8906531861836,
+            "sign": "Scorpio",
+            "degree": 5.890653186183613,
+            "speed": 1.0098903920559041,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 6.641365812457598,
+            "sign": "Aries",
+            "degree": 6.641365812457598,
+            "speed": 11.961753912338263,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 227.29888176933835,
+            "sign": "Scorpio",
+            "degree": 17.29888176933835,
+            "speed": 1.522814235730191,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 217.8601435597283,
+            "sign": "Scorpio",
+            "degree": 7.8601435597283,
+            "speed": 1.2563610832473313,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 258.70635063491176,
+            "sign": "Sagittarius",
+            "degree": 18.706350634911757,
+            "speed": 0.7650020935112618,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 305.77578859509345,
+            "sign": "Aquarius",
+            "degree": 5.775788595093445,
+            "speed": 0.0925195682295139,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 156.93697983962014,
+            "sign": "Virgo",
+            "degree": 6.936979839620136,
+            "speed": 0.0831092242094841,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 75.73746237124264,
+            "sign": "Gemini",
+            "degree": 15.737462371242643,
+            "speed": -0.029995824794324766,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 175.38567028917828,
+            "sign": "Virgo",
+            "degree": 25.38567028917828,
+            "speed": 0.030005748821560017,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 116.6900405898643,
+            "sign": "Cancer",
+            "degree": 26.690040589864296,
+            "speed": -0.0001637916691793204,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 331.7348282560909,
+            "sign": "Pisces",
+            "degree": 1.734828256090907,
+            "speed": -0.05299211818812856,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 151.7348282560909,
+            "sign": "Virgo",
+            "degree": 1.734828256090907
+          }
+        },
+        "panchanga": {
+          "tithi": 13,
+          "paksha": "shukla",
+          "nakshatra": 1,
+          "pada": 2,
+          "yoga": 17,
+          "karanaHalfTithi": 26
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "night",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 289.2345251745081,
+          "sign": "Capricorn",
+          "degree": 19.23452517450812
+        },
+        "spirit": {
+          "longitude": 230.73595042705608,
+          "sign": "Scorpio",
+          "degree": 20.735950427056082
+        },
+        "lunarMansion": 3
+      },
+      "siderealAscendant": 56.81406974947197
+    }
+  },
+  {
+    "input": {
+      "date": "1990-05-15",
+      "time": "14:30",
+      "timezone": "Europe/London",
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "1990-05-15T13:30:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 54.456380972320304,
+            "sign": "Taurus",
+            "degree": 24.456380972320304,
+            "speed": 0.9641948995513445,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 297.93448637838054,
+            "sign": "Capricorn",
+            "degree": 27.93448637838054,
+            "speed": 12.369061051605177,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 38.00509102188247,
+            "sign": "Taurus",
+            "degree": 8.005091021882471,
+            "speed": -0.11562608905938457,
+            "retrograde": true
+          },
+          "venus": {
+            "longitude": 12.889610070388528,
+            "sign": "Aries",
+            "degree": 12.889610070388528,
+            "speed": 1.140740112541454,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 348.38027322682046,
+            "sign": "Pisces",
+            "degree": 18.380273226820464,
+            "speed": 0.74268901554968,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 99.55351921749309,
+            "sign": "Cancer",
+            "degree": 9.55351921749309,
+            "speed": 0.18927024998099115,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 295.24838467376276,
+            "sign": "Capricorn",
+            "degree": 25.248384673762757,
+            "speed": -0.017000790735947856,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 279.18237673253356,
+            "sign": "Capricorn",
+            "degree": 9.182376732533555,
+            "speed": -0.024625870388462374,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 284.35198502341746,
+            "sign": "Capricorn",
+            "degree": 14.351985023417456,
+            "speed": -0.014752550679157603,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 226.1657099018737,
+            "sign": "Scorpio",
+            "degree": 16.165709901873697,
+            "speed": -0.027716366557390206,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 311.3358395297865,
+            "sign": "Aquarius",
+            "degree": 11.335839529786483,
+            "speed": -0.05293575525122431,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 169.7006010884582,
+          "sign": "Virgo",
+          "degree": 19.7006010884582
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "moon"
+            ],
+            "aspect": "trine",
+            "orb": 3.4781054060602514
+          },
+          {
+            "bodies": [
+              "sun",
+              "saturn"
+            ],
+            "aspect": "trine",
+            "orb": 0.7920037014424679
+          },
+          {
+            "bodies": [
+              "moon",
+              "saturn"
+            ],
+            "aspect": "conjunction",
+            "orb": 2.6861017046177835
+          },
+          {
+            "bodies": [
+              "mercury",
+              "jupiter"
+            ],
+            "aspect": "sextile",
+            "orb": 1.5484281956106258
+          },
+          {
+            "bodies": [
+              "mercury",
+              "uranus"
+            ],
+            "aspect": "trine",
+            "orb": 1.1772857106510628
+          },
+          {
+            "bodies": [
+              "venus",
+              "jupiter"
+            ],
+            "aspect": "square",
+            "orb": 3.3360908528954383
+          },
+          {
+            "bodies": [
+              "venus",
+              "uranus"
+            ],
+            "aspect": "square",
+            "orb": 3.707233337854973
+          },
+          {
+            "bodies": [
+              "venus",
+              "neptune"
+            ],
+            "aspect": "square",
+            "orb": 1.4623749530289274
+          },
+          {
+            "bodies": [
+              "mars",
+              "neptune"
+            ],
+            "aspect": "sextile",
+            "orb": 4.028288203403008
+          },
+          {
+            "bodies": [
+              "mars",
+              "pluto"
+            ],
+            "aspect": "trine",
+            "orb": 2.2145633249467664
+          },
+          {
+            "bodies": [
+              "jupiter",
+              "uranus"
+            ],
+            "aspect": "opposition",
+            "orb": 0.3711424849595346
+          },
+          {
+            "bodies": [
+              "jupiter",
+              "neptune"
+            ],
+            "aspect": "opposition",
+            "orb": 4.798465805924366
+          },
+          {
+            "bodies": [
+              "uranus",
+              "neptune"
+            ],
+            "aspect": "conjunction",
+            "orb": 5.1696082908839
+          },
+          {
+            "bodies": [
+              "neptune",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 1.8137248784562416
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 23.72255270928332,
+        "planets": {
+          "sun": {
+            "longitude": 30.73056837097538,
+            "sign": "Taurus",
+            "degree": 0.7305683709753801,
+            "speed": 0.9641386328244248,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 274.20867377703564,
+            "sign": "Capricorn",
+            "degree": 4.208673777035642,
+            "speed": 12.369004739578223,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 14.279278420537544,
+            "sign": "Aries",
+            "degree": 14.279278420537544,
+            "speed": -0.11568253453340488,
+            "retrograde": true
+          },
+          "venus": {
+            "longitude": 349.16379746904363,
+            "sign": "Pisces",
+            "degree": 19.16379746904363,
+            "speed": 1.140683688790904,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 324.65446062547556,
+            "sign": "Aquarius",
+            "degree": 24.654460625475565,
+            "speed": 0.7426325970095713,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 75.82770661614818,
+            "sign": "Gemini",
+            "degree": 15.827706616148177,
+            "speed": 0.18921398101937809,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 271.52257207241786,
+            "sign": "Capricorn",
+            "degree": 1.5225720724178586,
+            "speed": -0.017057051660311247,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 255.45656413118866,
+            "sign": "Sagittarius",
+            "degree": 15.456564131188657,
+            "speed": -0.02468214170782302,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 260.62617242207256,
+            "sign": "Sagittarius",
+            "degree": 20.626172422072557,
+            "speed": -0.014808798201021286,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 202.43989730052877,
+            "sign": "Libra",
+            "degree": 22.43989730052877,
+            "speed": -0.027773650891903583,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 287.6100269284416,
+            "sign": "Capricorn",
+            "degree": 17.610026928441584,
+            "speed": -0.0529920220539394,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 107.61002692844158,
+            "sign": "Cancer",
+            "degree": 17.610026928441584
+          }
+        },
+        "panchanga": {
+          "tithi": 21,
+          "paksha": "krishna",
+          "nakshatra": 21,
+          "pada": 3,
+          "yoga": 23,
+          "karanaHalfTithi": 41
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "day",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 53.17870649451845,
+          "sign": "Taurus",
+          "degree": 23.17870649451845
+        },
+        "spirit": {
+          "longitude": 286.22249568239795,
+          "sign": "Capricorn",
+          "degree": 16.22249568239795
+        },
+        "lunarMansion": 24
+      },
+      "siderealAscendant": 145.97478848711327
+    }
+  },
+  {
+    "input": {
+      "date": "2000-01-01",
+      "time": "12:00",
+      "timezone": "UTC",
+      "latitude": 0,
+      "longitude": 0
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 280.36891967534336,
+            "sign": "Capricorn",
+            "degree": 10.368919675343363,
+            "speed": 1.0194320944210782,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 223.32377543840954,
+            "sign": "Scorpio",
+            "degree": 13.323775438409541,
+            "speed": 12.021182719804214,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 271.8892750074874,
+            "sign": "Capricorn",
+            "degree": 1.889275007487413,
+            "speed": 1.5562540922634527,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 241.5657983261687,
+            "sign": "Sagittarius",
+            "degree": 1.5657983261687036,
+            "speed": 1.2090397204249068,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 327.9633133185202,
+            "sign": "Aquarius",
+            "degree": 27.963313318520193,
+            "speed": 0.7756727772750058,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 25.25303030942177,
+            "sign": "Aries",
+            "degree": 25.25303030942177,
+            "speed": 0.04076131765140367,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 40.39563895600193,
+            "sign": "Taurus",
+            "degree": 10.395638956001932,
+            "speed": -0.01994475935472004,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 314.8092231658263,
+            "sign": "Aquarius",
+            "degree": 14.809223165826324,
+            "speed": 0.05034355441128553,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 303.19298122364415,
+            "sign": "Aquarius",
+            "degree": 3.1929812236441535,
+            "speed": 0.03557012441920768,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 251.45470884674668,
+            "sign": "Sagittarius",
+            "degree": 11.454708846746684,
+            "speed": 0.03515289524029843,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 125.04064605661608,
+            "sign": "Leo",
+            "degree": 5.040646056616083,
+            "speed": -0.052951801218022544,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 11.373899604604901,
+          "sign": "Aries",
+          "degree": 11.373899604604901
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "moon"
+            ],
+            "aspect": "sextile",
+            "orb": 2.9548557630661776
+          },
+          {
+            "bodies": [
+              "sun",
+              "saturn"
+            ],
+            "aspect": "trine",
+            "orb": 0.0267192806585399
+          },
+          {
+            "bodies": [
+              "moon",
+              "saturn"
+            ],
+            "aspect": "opposition",
+            "orb": 2.928136482407581
+          },
+          {
+            "bodies": [
+              "moon",
+              "uranus"
+            ],
+            "aspect": "square",
+            "orb": 1.4854477274167834
+          },
+          {
+            "bodies": [
+              "mercury",
+              "mars"
+            ],
+            "aspect": "sextile",
+            "orb": 3.92596168896722
+          },
+          {
+            "bodies": [
+              "venus",
+              "mars"
+            ],
+            "aspect": "square",
+            "orb": 3.602485007648511
+          },
+          {
+            "bodies": [
+              "venus",
+              "neptune"
+            ],
+            "aspect": "sextile",
+            "orb": 1.6271828974754499
+          },
+          {
+            "bodies": [
+              "mars",
+              "jupiter"
+            ],
+            "aspect": "sextile",
+            "orb": 2.7102830090984185
+          },
+          {
+            "bodies": [
+              "saturn",
+              "uranus"
+            ],
+            "aspect": "square",
+            "orb": 4.413584209824421
+          },
+          {
+            "bodies": [
+              "uranus",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 3.354514319079641
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 23.857092353708822,
+        "planets": {
+          "sun": {
+            "longitude": 256.51569718931427,
+            "sign": "Sagittarius",
+            "degree": 16.515697189314267,
+            "speed": 1.0193918758618497,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 199.47055295238044,
+            "sign": "Libra",
+            "degree": 19.470552952380444,
+            "speed": 12.021142876935496,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 248.0360525214584,
+            "sign": "Sagittarius",
+            "degree": 8.036052521458402,
+            "speed": 1.5562138769714937,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 217.7125758401396,
+            "sign": "Scorpio",
+            "degree": 7.712575840139607,
+            "speed": 1.208999599949155,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 304.11009083249115,
+            "sign": "Aquarius",
+            "degree": 4.110090832491153,
+            "speed": 0.7756326488476596,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 1.3998078233926976,
+            "sign": "Aries",
+            "degree": 1.3998078233926976,
+            "speed": 0.040721212776752204,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 16.542416469972864,
+            "sign": "Aries",
+            "degree": 16.542416469972864,
+            "speed": -0.019984792373173656,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 290.9560006797972,
+            "sign": "Capricorn",
+            "degree": 20.956000679797228,
+            "speed": 0.050303382056264494,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 279.3397587376151,
+            "sign": "Capricorn",
+            "degree": 9.339758737615114,
+            "speed": 0.03552989299734957,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 227.6014863607176,
+            "sign": "Scorpio",
+            "degree": 17.601486360717587,
+            "speed": 0.03511302476310472,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 101.18742357058703,
+            "sign": "Cancer",
+            "degree": 11.187423570587029,
+            "speed": -0.052992019727111754,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 281.18742357058704,
+            "sign": "Capricorn",
+            "degree": 11.187423570587043
+          }
+        },
+        "panchanga": {
+          "tithi": 26,
+          "paksha": "krishna",
+          "nakshatra": 15,
+          "pada": 4,
+          "yoga": 8,
+          "karanaHalfTithi": 51
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "day",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 314.3287553676711,
+          "sign": "Aquarius",
+          "degree": 14.328755367671079
+        },
+        "spirit": {
+          "longitude": 68.41904384153872,
+          "sign": "Gemini",
+          "degree": 8.419043841538723
+        },
+        "lunarMansion": 18
+      },
+      "siderealAscendant": 347.52067711857586
+    }
+  },
+  {
+    "input": {
+      "date": "2024-02-29",
+      "time": "23:59:59",
+      "timezone": "Asia/Kolkata",
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "2024-02-29T18:29:59+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 340.6594674179015,
+            "sign": "Pisces",
+            "degree": 10.65946741790151,
+            "speed": 1.003706605532438,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 217.70326094770988,
+            "sign": "Scorpio",
+            "degree": 7.703260947709879,
+            "speed": 12.103317952155775,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 341.8912208918651,
+            "sign": "Pisces",
+            "degree": 11.891220891865089,
+            "speed": 1.888792926703834,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 316.2093424193551,
+            "sign": "Aquarius",
+            "degree": 16.209342419355096,
+            "speed": 1.2378022917730822,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 312.7396951602228,
+            "sign": "Aquarius",
+            "degree": 12.739695160222823,
+            "speed": 0.774290032689612,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 41.275173771889236,
+            "sign": "Taurus",
+            "degree": 11.275173771889236,
+            "speed": 0.17018356697669035,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 339.8852099027867,
+            "sign": "Pisces",
+            "degree": 9.885209902786698,
+            "speed": 0.12212855679172294,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 49.57272363073724,
+            "sign": "Taurus",
+            "degree": 19.572723630737237,
+            "speed": 0.028246756353830692,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 356.7320714485926,
+            "sign": "Pisces",
+            "degree": 26.732071448592592,
+            "speed": 0.036719288969200486,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 301.20994332138474,
+            "sign": "Aquarius",
+            "degree": 1.209943321384742,
+            "speed": 0.026439631350473745,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 17.712060489877583,
+            "sign": "Aries",
+            "degree": 17.712060489877583,
+            "speed": -0.05297156974083289,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 241.3553222154485,
+          "sign": "Sagittarius",
+          "degree": 1.3553222154484956
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          240.0,
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "moon"
+            ],
+            "aspect": "trine",
+            "orb": 2.9562064701916597
+          },
+          {
+            "bodies": [
+              "sun",
+              "mercury"
+            ],
+            "aspect": "conjunction",
+            "orb": 1.231753473963579
+          },
+          {
+            "bodies": [
+              "sun",
+              "jupiter"
+            ],
+            "aspect": "sextile",
+            "orb": 0.6157063539877186
+          },
+          {
+            "bodies": [
+              "sun",
+              "saturn"
+            ],
+            "aspect": "conjunction",
+            "orb": 0.7742575151148117
+          },
+          {
+            "bodies": [
+              "moon",
+              "mercury"
+            ],
+            "aspect": "trine",
+            "orb": 4.18795994415521
+          },
+          {
+            "bodies": [
+              "moon",
+              "mars"
+            ],
+            "aspect": "square",
+            "orb": 5.036434212512944
+          },
+          {
+            "bodies": [
+              "moon",
+              "jupiter"
+            ],
+            "aspect": "opposition",
+            "orb": 3.5719128241793214
+          },
+          {
+            "bodies": [
+              "moon",
+              "saturn"
+            ],
+            "aspect": "trine",
+            "orb": 2.1819489550768196
+          },
+          {
+            "bodies": [
+              "mercury",
+              "jupiter"
+            ],
+            "aspect": "sextile",
+            "orb": 0.6160471199758604
+          },
+          {
+            "bodies": [
+              "mercury",
+              "saturn"
+            ],
+            "aspect": "conjunction",
+            "orb": 2.0060109890783906
+          },
+          {
+            "bodies": [
+              "venus",
+              "mars"
+            ],
+            "aspect": "conjunction",
+            "orb": 3.469647259132273
+          },
+          {
+            "bodies": [
+              "venus",
+              "jupiter"
+            ],
+            "aspect": "square",
+            "orb": 4.934168647465867
+          },
+          {
+            "bodies": [
+              "venus",
+              "uranus"
+            ],
+            "aspect": "square",
+            "orb": 3.3633812113821477
+          },
+          {
+            "bodies": [
+              "mars",
+              "jupiter"
+            ],
+            "aspect": "square",
+            "orb": 1.4645213883335941
+          },
+          {
+            "bodies": [
+              "jupiter",
+              "saturn"
+            ],
+            "aspect": "sextile",
+            "orb": 1.3899638691025302
+          },
+          {
+            "bodies": [
+              "neptune",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 4.47787187279215
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 24.19463018546577,
+        "planets": {
+          "sun": {
+            "longitude": 316.46608141453606,
+            "sign": "Aquarius",
+            "degree": 16.466081414536063,
+            "speed": 1.0036861773839787,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 193.50987494434443,
+            "sign": "Libra",
+            "degree": 13.509874944344432,
+            "speed": 12.103297289882834,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 317.69783488849964,
+            "sign": "Aquarius",
+            "degree": 17.697834888499642,
+            "speed": 1.8887727489995305,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 292.01595641598965,
+            "sign": "Capricorn",
+            "degree": 22.01595641598965,
+            "speed": 1.2377819404604953,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 288.5463091568574,
+            "sign": "Capricorn",
+            "degree": 18.546309156857376,
+            "speed": 0.7742697148563732,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 17.08178776852381,
+            "sign": "Aries",
+            "degree": 17.08178776852381,
+            "speed": 0.17016324424601387,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 315.69182389942125,
+            "sign": "Aquarius",
+            "degree": 15.691823899421252,
+            "speed": 0.12210836182813804,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 25.379337627371804,
+            "sign": "Aries",
+            "degree": 25.379337627371804,
+            "speed": 0.028226356395713057,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 332.5386854452271,
+            "sign": "Pisces",
+            "degree": 2.538685445227088,
+            "speed": 0.03669904678484364,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 277.0165573180193,
+            "sign": "Capricorn",
+            "degree": 7.016557318019295,
+            "speed": 0.02641943066196882,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 353.51867448651217,
+            "sign": "Pisces",
+            "degree": 23.518674486512168,
+            "speed": -0.052991997815622846,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 173.51867448651217,
+            "sign": "Virgo",
+            "degree": 23.518674486512168
+          }
+        },
+        "panchanga": {
+          "tithi": 20,
+          "paksha": "krishna",
+          "nakshatra": 15,
+          "pada": 3,
+          "yoga": 12,
+          "karanaHalfTithi": 40
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "night",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 4.311528685640155,
+          "sign": "Aries",
+          "degree": 4.311528685640155
+        },
+        "spirit": {
+          "longitude": 118.39911574525686,
+          "sign": "Cancer",
+          "degree": 28.399115745256864
+        },
+        "lunarMansion": 17
+      },
+      "siderealAscendant": 217.16193621208305
+    }
+  },
+  {
+    "input": {
+      "date": "2024-06-21",
+      "time": "12:00",
+      "timezone": "UTC",
+      "latitude": 80,
+      "longitude": 20
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "2024-06-21T12:00:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 90.60216369074239,
+            "sign": "Cancer",
+            "degree": 0.6021636907423868,
+            "speed": 0.9538837360691719,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 263.7434080064127,
+            "sign": "Sagittarius",
+            "degree": 23.74340800641272,
+            "speed": 13.40522988600215,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 98.82275170082956,
+            "sign": "Cancer",
+            "degree": 8.822751700829556,
+            "speed": 2.0943950372811866,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 95.20384410953955,
+            "sign": "Cancer",
+            "degree": 5.203844109539546,
+            "speed": 1.2284743433850642,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 39.07111576002876,
+            "sign": "Taurus",
+            "degree": 9.07111576002876,
+            "speed": 0.7305377817360171,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 66.12235424348515,
+            "sign": "Gemini",
+            "degree": 6.122354243485148,
+            "speed": 0.22398581357179012,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 349.3705801663209,
+            "sign": "Pisces",
+            "degree": 19.370580166320906,
+            "speed": 0.013835959745324054,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 55.26723168901916,
+            "sign": "Taurus",
+            "degree": 25.267231689019162,
+            "speed": 0.04982510664330824,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 359.8993683541359,
+            "sign": "Pisces",
+            "degree": 29.899368354135902,
+            "speed": 0.005967145074905016,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 301.5758843419046,
+            "sign": "Aquarius",
+            "degree": 1.5758843419046116,
+            "speed": -0.019387869937937417,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 11.742905881136052,
+            "sign": "Aries",
+            "degree": 11.742905881136052,
+            "speed": -0.05290459608742152,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 186.3141985943353,
+          "sign": "Libra",
+          "degree": 6.314198594335295
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "venus"
+            ],
+            "aspect": "conjunction",
+            "orb": 4.601680418797173
+          },
+          {
+            "bodies": [
+              "sun",
+              "neptune"
+            ],
+            "aspect": "square",
+            "orb": 0.7027953366064708
+          },
+          {
+            "bodies": [
+              "moon",
+              "saturn"
+            ],
+            "aspect": "square",
+            "orb": 4.372827840091816
+          },
+          {
+            "bodies": [
+              "mercury",
+              "venus"
+            ],
+            "aspect": "conjunction",
+            "orb": 3.6189075912899966
+          },
+          {
+            "bodies": [
+              "mercury",
+              "mars"
+            ],
+            "aspect": "sextile",
+            "orb": 0.24836405919921845
+          },
+          {
+            "bodies": [
+              "venus",
+              "mars"
+            ],
+            "aspect": "sextile",
+            "orb": 3.867271650489215
+          },
+          {
+            "bodies": [
+              "venus",
+              "neptune"
+            ],
+            "aspect": "square",
+            "orb": 5.304475755403644
+          },
+          {
+            "bodies": [
+              "jupiter",
+              "pluto"
+            ],
+            "aspect": "trine",
+            "orb": 4.546469901580508
+          },
+          {
+            "bodies": [
+              "saturn",
+              "uranus"
+            ],
+            "aspect": "sextile",
+            "orb": 5.896651522698278
+          },
+          {
+            "bodies": [
+              "uranus",
+              "neptune"
+            ],
+            "aspect": "sextile",
+            "orb": 4.632136665116718
+          },
+          {
+            "bodies": [
+              "neptune",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 1.6765159877687097
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 24.19894194084833,
+        "planets": {
+          "sun": {
+            "longitude": 66.40418910518709,
+            "sign": "Gemini",
+            "degree": 6.404189105187086,
+            "speed": 0.9537963347254191,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 239.54543342085745,
+            "sign": "Scorpio",
+            "degree": 29.54543342085745,
+            "speed": 13.405142453949038,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 74.62477711527427,
+            "sign": "Gemini",
+            "degree": 14.62477711527427,
+            "speed": 2.094307651465702,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 71.00586952398426,
+            "sign": "Gemini",
+            "degree": 11.00586952398426,
+            "speed": 1.2283869452189888,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 14.873141174473474,
+            "sign": "Aries",
+            "degree": 14.873141174473474,
+            "speed": 0.7304504278501506,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 41.92437965792987,
+            "sign": "Taurus",
+            "degree": 11.924379657929869,
+            "speed": 0.22389842894388287,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 325.1726055807657,
+            "sign": "Aquarius",
+            "degree": 25.17260558076572,
+            "speed": 0.013748671344531798,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 31.06925710346388,
+            "sign": "Taurus",
+            "degree": 1.0692571034638796,
+            "speed": 0.04973771402325508,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 335.70139376858066,
+            "sign": "Pisces",
+            "degree": 5.701393768580658,
+            "speed": 0.0058798188570787285,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 277.37790975634937,
+            "sign": "Capricorn",
+            "degree": 7.377909756349368,
+            "speed": -0.019475173200781317,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 347.54493129558074,
+            "sign": "Pisces",
+            "degree": 17.54493129558074,
+            "speed": -0.05299199740851183,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 167.54493129558068,
+            "sign": "Virgo",
+            "degree": 17.54493129558068
+          }
+        },
+        "panchanga": {
+          "tithi": 15,
+          "paksha": "shukla",
+          "nakshatra": 18,
+          "pada": 4,
+          "yoga": 23,
+          "karanaHalfTithi": 29
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "day",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 359.4554429100057,
+          "sign": "Pisces",
+          "degree": 29.455442910005672
+        },
+        "spirit": {
+          "longitude": 13.172954278664946,
+          "sign": "Aries",
+          "degree": 13.172954278664946
+        },
+        "lunarMansion": 21
+      },
+      "siderealAscendant": 162.11622400878002
+    }
+  },
+  {
+    "input": {
+      "date": "2024-12-21",
+      "time": "00:00",
+      "timezone": "UTC",
+      "latitude": -80,
+      "longitude": 20
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "2024-12-21T00:00:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 269.60363384931463,
+            "sign": "Sagittarius",
+            "degree": 29.603633849314633,
+            "speed": 1.0181520403790145,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 158.4117787669245,
+            "sign": "Virgo",
+            "degree": 8.411778766924499,
+            "speed": 12.219345376112376,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 248.2996442510916,
+            "sign": "Sagittarius",
+            "degree": 8.299644251091593,
+            "speed": 0.6841785175675522,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 315.643234675929,
+            "sign": "Aquarius",
+            "degree": 15.643234675929023,
+            "speed": 1.1180045230836455,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 124.82312755936906,
+            "sign": "Leo",
+            "degree": 4.8231275593690555,
+            "speed": -0.19336340806671123,
+            "retrograde": true
+          },
+          "jupiter": {
+            "longitude": 74.50938261728038,
+            "sign": "Gemini",
+            "degree": 14.50938261728038,
+            "speed": -0.1269740544332519,
+            "retrograde": true
+          },
+          "saturn": {
+            "longitude": 343.7779104184159,
+            "sign": "Pisces",
+            "degree": 13.7779104184159,
+            "speed": 0.05975336334260131,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 53.94488761354248,
+            "sign": "Taurus",
+            "degree": 23.944887613542477,
+            "speed": -0.031543554299086916,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 357.18024568859505,
+            "sign": "Pisces",
+            "degree": 27.18024568859505,
+            "speed": 0.007518126750330761,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 300.7387036610131,
+            "sign": "Aquarius",
+            "degree": 0.738703661013119,
+            "speed": 0.028437148285913903,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 2.0797023811191457,
+            "sign": "Aries",
+            "degree": 2.0797023811191457,
+            "speed": -0.05296089212105593,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 166.1781179576558,
+          "sign": "Virgo",
+          "degree": 16.178117957655786
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "neptune"
+            ],
+            "aspect": "square",
+            "orb": 2.4233881607195826
+          },
+          {
+            "bodies": [
+              "moon",
+              "mercury"
+            ],
+            "aspect": "square",
+            "orb": 0.11213451583290635
+          },
+          {
+            "bodies": [
+              "moon",
+              "saturn"
+            ],
+            "aspect": "opposition",
+            "orb": 5.366131651491401
+          },
+          {
+            "bodies": [
+              "mercury",
+              "mars"
+            ],
+            "aspect": "trine",
+            "orb": 3.4765166917225088
+          },
+          {
+            "bodies": [
+              "mercury",
+              "saturn"
+            ],
+            "aspect": "square",
+            "orb": 5.478266167324307
+          },
+          {
+            "bodies": [
+              "venus",
+              "jupiter"
+            ],
+            "aspect": "trine",
+            "orb": 1.1338520586486425
+          },
+          {
+            "bodies": [
+              "mars",
+              "pluto"
+            ],
+            "aspect": "opposition",
+            "orb": 4.0844238983559364
+          },
+          {
+            "bodies": [
+              "jupiter",
+              "saturn"
+            ],
+            "aspect": "square",
+            "orb": 0.7314721988644806
+          },
+          {
+            "bodies": [
+              "uranus",
+              "neptune"
+            ],
+            "aspect": "sextile",
+            "orb": 3.2353580750525452
+          },
+          {
+            "bodies": [
+              "neptune",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 3.5584579724180685
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 24.205922358586292,
+        "planets": {
+          "sun": {
+            "longitude": 245.39782513932695,
+            "sign": "Sagittarius",
+            "degree": 5.3978251393269545,
+            "speed": 1.0181209521282881,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 134.20597005693688,
+            "sign": "Leo",
+            "degree": 14.205970056936877,
+            "speed": 12.219313978130064,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 224.09383554110397,
+            "sign": "Scorpio",
+            "degree": 14.09383554110397,
+            "speed": 0.684147275141288,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 291.4374259659414,
+            "sign": "Capricorn",
+            "degree": 21.437425965941372,
+            "speed": 1.1179731980689465,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 100.6173188493814,
+            "sign": "Cancer",
+            "degree": 10.617318849381405,
+            "speed": -0.19339482109994083,
+            "retrograde": true
+          },
+          "jupiter": {
+            "longitude": 50.303573907292744,
+            "sign": "Taurus",
+            "degree": 20.303573907292744,
+            "speed": -0.12700517054441504,
+            "retrograde": true
+          },
+          "saturn": {
+            "longitude": 319.57210170842825,
+            "sign": "Aquarius",
+            "degree": 19.57210170842825,
+            "speed": 0.05972195960554982,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 29.739078903554862,
+            "sign": "Aries",
+            "degree": 29.739078903554862,
+            "speed": -0.03157466727461795,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 332.9744369786074,
+            "sign": "Pisces",
+            "degree": 2.9744369786074003,
+            "speed": 0.00748682695400829,
+            "retrograde": false
+          },
+          "pluto": {
+            "longitude": 276.53289495102547,
+            "sign": "Capricorn",
+            "degree": 6.532894951025469,
+            "speed": 0.028405786058216573,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 337.87389367113155,
+            "sign": "Pisces",
+            "degree": 7.873893671131555,
+            "speed": -0.0529919803666933,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 157.87389367113155,
+            "sign": "Virgo",
+            "degree": 7.873893671131555
+          }
+        },
+        "panchanga": {
+          "tithi": 21,
+          "paksha": "krishna",
+          "nakshatra": 11,
+          "pada": 1,
+          "yoga": 2,
+          "karanaHalfTithi": 42
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "day",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 54.98626287526565,
+          "sign": "Taurus",
+          "degree": 24.986262875265652
+        },
+        "spirit": {
+          "longitude": 277.3699730400459,
+          "sign": "Capricorn",
+          "degree": 7.36997304004592
+        },
+        "lunarMansion": 13
+      },
+      "siderealAscendant": 141.97230924766816
+    }
+  },
+  {
+    "input": {
+      "date": "2024-07-20",
+      "time": "08:30",
+      "timezone": "Pacific/Auckland",
+      "latitude": -36.8485,
+      "longitude": 174.7633
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "2024-07-19T20:30:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 117.64464173290969,
+            "sign": "Cancer",
+            "degree": 27.64464173290969,
+            "speed": 0.9540779970059892,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 277.003261749006,
+            "sign": "Capricorn",
+            "degree": 7.003261749006015,
+            "speed": 13.794258317457253,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 144.43724345555896,
+            "sign": "Leo",
+            "degree": 24.437243455558956,
+            "speed": 1.0643314247478346,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 130.04424117755843,
+            "sign": "Leo",
+            "degree": 10.044241177558433,
+            "speed": 1.2285799674119937,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 59.30010421870665,
+            "sign": "Taurus",
+            "degree": 29.30010421870665,
+            "speed": 0.6943170706247533,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 72.12110355225076,
+            "sign": "Gemini",
+            "degree": 12.121103552250759,
+            "speed": 0.19615606613465267,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 349.09798403906495,
+            "sign": "Pisces",
+            "degree": 19.097984039064954,
+            "speed": -0.03233579369061931,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 56.47651575713427,
+            "sign": "Taurus",
+            "degree": 26.476515757134273,
+            "speed": 0.034325405082389016,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 359.8503809120651,
+            "sign": "Pisces",
+            "degree": 29.850380912065077,
+            "speed": -0.009171501128557432,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 300.9502080915812,
+            "sign": "Aquarius",
+            "degree": 0.950208091581203,
+            "speed": -0.023572968656230153,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 10.241865078262386,
+            "sign": "Aries",
+            "degree": 10.241865078262386,
+            "speed": -0.05290635649838176,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 135.3121337128594,
+          "sign": "Leo",
+          "degree": 15.312133712859406
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0,
+          60.0,
+          90.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "mars"
+            ],
+            "aspect": "sextile",
+            "orb": 1.65546248579696
+          },
+          {
+            "bodies": [
+              "sun",
+              "uranus"
+            ],
+            "aspect": "sextile",
+            "orb": 1.1681259757754106
+          },
+          {
+            "bodies": [
+              "sun",
+              "neptune"
+            ],
+            "aspect": "trine",
+            "orb": 2.205739179155387
+          },
+          {
+            "bodies": [
+              "sun",
+              "pluto"
+            ],
+            "aspect": "opposition",
+            "orb": 3.3055663586715127
+          },
+          {
+            "bodies": [
+              "mercury",
+              "mars"
+            ],
+            "aspect": "square",
+            "orb": 4.862860763147694
+          },
+          {
+            "bodies": [
+              "mercury",
+              "uranus"
+            ],
+            "aspect": "square",
+            "orb": 2.0392723015753518
+          },
+          {
+            "bodies": [
+              "venus",
+              "jupiter"
+            ],
+            "aspect": "sextile",
+            "orb": 2.0768623746923254
+          },
+          {
+            "bodies": [
+              "mars",
+              "uranus"
+            ],
+            "aspect": "conjunction",
+            "orb": 2.8235884615723705
+          },
+          {
+            "bodies": [
+              "mars",
+              "neptune"
+            ],
+            "aspect": "sextile",
+            "orb": 0.5502766933584553
+          },
+          {
+            "bodies": [
+              "mars",
+              "pluto"
+            ],
+            "aspect": "trine",
+            "orb": 1.6501038728745243
+          },
+          {
+            "bodies": [
+              "uranus",
+              "neptune"
+            ],
+            "aspect": "sextile",
+            "orb": 3.3738651549307974
+          },
+          {
+            "bodies": [
+              "uranus",
+              "pluto"
+            ],
+            "aspect": "trine",
+            "orb": 4.473692334446923
+          },
+          {
+            "bodies": [
+              "neptune",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 1.0998271795161259
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 24.200026454515978,
+        "planets": {
+          "sun": {
+            "longitude": 93.44516431341285,
+            "sign": "Cancer",
+            "degree": 3.445164313412846,
+            "speed": 0.9539923561305051,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 252.80378432950917,
+            "sign": "Sagittarius",
+            "degree": 12.80378432950917,
+            "speed": 13.794172591345081,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 120.23776603606211,
+            "sign": "Leo",
+            "degree": 0.2377660360621121,
+            "speed": 1.0642458363724225,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 105.84476375806157,
+            "sign": "Cancer",
+            "degree": 15.844763758061575,
+            "speed": 1.2284942039954403,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 35.10062679920979,
+            "sign": "Taurus",
+            "degree": 5.100626799209792,
+            "speed": 0.694231377032853,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 47.9216261327539,
+            "sign": "Taurus",
+            "degree": 17.9216261327539,
+            "speed": 0.19607039578641391,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 324.8985066195681,
+            "sign": "Aquarius",
+            "degree": 24.89850661956808,
+            "speed": -0.03242171501738914,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 32.277038337637414,
+            "sign": "Taurus",
+            "degree": 2.277038337637414,
+            "speed": 0.034239744129592777,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 335.6509034925682,
+            "sign": "Pisces",
+            "degree": 5.6509034925682045,
+            "speed": -0.00925732141781219,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 276.75073067208433,
+            "sign": "Capricorn",
+            "degree": 6.75073067208433,
+            "speed": -0.02365883925327941,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 346.04238765876556,
+            "sign": "Pisces",
+            "degree": 16.042387658765563,
+            "speed": -0.052991997414466384,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 166.04238765876562,
+            "sign": "Virgo",
+            "degree": 16.04238765876562
+          }
+        },
+        "panchanga": {
+          "tithi": 14,
+          "paksha": "shukla",
+          "nakshatra": 19,
+          "pada": 4,
+          "yoga": 26,
+          "karanaHalfTithi": 27
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "day",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 294.67075372895573,
+          "sign": "Capricorn",
+          "degree": 24.67075372895573
+        },
+        "spirit": {
+          "longitude": 335.9535136967631,
+          "sign": "Pisces",
+          "degree": 5.953513696763082
+        },
+        "lunarMansion": 22
+      },
+      "siderealAscendant": 111.11265629336255
+    }
+  },
+  {
+    "input": {
+      "date": "2026-10-18",
+      "time": "12:00",
+      "timezone": "Asia/Kolkata",
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 204.90102135895683,
+            "sign": "Libra",
+            "degree": 24.901021358956825,
+            "speed": 0.9926328932022431,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 290.49553817276086,
+            "sign": "Capricorn",
+            "degree": 20.49553817276086,
+            "speed": 11.862087079074811,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 228.91457071067245,
+            "sign": "Scorpio",
+            "degree": 18.91457071067245,
+            "speed": 0.629878287637849,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 214.20106970394647,
+            "sign": "Scorpio",
+            "degree": 4.201069703946473,
+            "speed": -0.537639699285331,
+            "retrograde": true
+          },
+          "mars": {
+            "longitude": 131.42710297690326,
+            "sign": "Leo",
+            "degree": 11.427102976903257,
+            "speed": 0.5430622423978932,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 142.44998944649603,
+            "sign": "Leo",
+            "degree": 22.449989446496033,
+            "speed": 0.15045150443079822,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 10.23847229176532,
+            "sign": "Aries",
+            "degree": 10.23847229176532,
+            "speed": -0.07460294940080807,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 65.12744421642383,
+            "sign": "Gemini",
+            "degree": 5.127444216423825,
+            "speed": -0.02899321509379613,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 2.4019624452590462,
+            "sign": "Aries",
+            "degree": 2.4019624452590462,
+            "speed": -0.02509026106158477,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 303.0695958685804,
+            "sign": "Aquarius",
+            "degree": 3.069595868580393,
+            "speed": 0.001022842409860587,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 326.80056793333785,
+            "sign": "Aquarius",
+            "degree": 26.800567933337845,
+            "speed": -0.05294202508287767,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 285.0777897362719,
+          "sign": "Capricorn",
+          "degree": 15.077789736271882
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "moon"
+            ],
+            "aspect": "square",
+            "orb": 4.405483186195966
+          },
+          {
+            "bodies": [
+              "sun",
+              "jupiter"
+            ],
+            "aspect": "sextile",
+            "orb": 2.4510319124607918
+          },
+          {
+            "bodies": [
+              "moon",
+              "mercury"
+            ],
+            "aspect": "sextile",
+            "orb": 1.5809674620884095
+          },
+          {
+            "bodies": [
+              "mercury",
+              "jupiter"
+            ],
+            "aspect": "square",
+            "orb": 3.535418735823555
+          },
+          {
+            "bodies": [
+              "venus",
+              "pluto"
+            ],
+            "aspect": "square",
+            "orb": 1.13147383536608
+          },
+          {
+            "bodies": [
+              "mars",
+              "saturn"
+            ],
+            "aspect": "trine",
+            "orb": 1.1886306851379231
+          },
+          {
+            "bodies": [
+              "saturn",
+              "uranus"
+            ],
+            "aspect": "sextile",
+            "orb": 5.111028075341494
+          },
+          {
+            "bodies": [
+              "uranus",
+              "neptune"
+            ],
+            "aspect": "sextile",
+            "orb": 2.725481771164766
+          },
+          {
+            "bodies": [
+              "uranus",
+              "pluto"
+            ],
+            "aspect": "trine",
+            "orb": 2.0578483478434464
+          },
+          {
+            "bodies": [
+              "neptune",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 0.6676334233213197
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 24.23140659146884,
+        "planets": {
+          "sun": {
+            "longitude": 180.66733251822882,
+            "sign": "Libra",
+            "degree": 0.6673325182288181,
+            "speed": 0.9925829560740557,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 266.26184933203285,
+            "sign": "Sagittarius",
+            "degree": 26.261849332032853,
+            "speed": 11.862037066862749,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 204.68088186994444,
+            "sign": "Libra",
+            "degree": 24.680881869944443,
+            "speed": 0.6298284944988268,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 189.96738086321847,
+            "sign": "Libra",
+            "degree": 9.967380863218466,
+            "speed": -0.5376892202277903,
+            "retrograde": true
+          },
+          "mars": {
+            "longitude": 107.19341413617526,
+            "sign": "Cancer",
+            "degree": 17.193414136175264,
+            "speed": 0.5430122449206346,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 118.21630060576807,
+            "sign": "Cancer",
+            "degree": 28.21630060576807,
+            "speed": 0.15040153213373714,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 346.0047834510373,
+            "sign": "Pisces",
+            "degree": 16.004783451037326,
+            "speed": -0.0746530698347339,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 40.89375537569583,
+            "sign": "Taurus",
+            "degree": 10.893755375695832,
+            "speed": -0.02904315662222468,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 338.16827360453107,
+            "sign": "Pisces",
+            "degree": 8.168273604531066,
+            "speed": -0.025140295603783593,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 278.83590702785244,
+            "sign": "Capricorn",
+            "degree": 8.835907027852443,
+            "speed": 0.0009727443863180615,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 302.5668790926099,
+            "sign": "Aquarius",
+            "degree": 2.566879092609895,
+            "speed": -0.052991962082425584,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 122.5668790926099,
+            "sign": "Leo",
+            "degree": 2.566879092609895
+          }
+        },
+        "panchanga": {
+          "tithi": 8,
+          "paksha": "shukla",
+          "nakshatra": 20,
+          "pada": 4,
+          "yoga": 7,
+          "karanaHalfTithi": 15
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "day",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 10.672306550075916,
+          "sign": "Aries",
+          "degree": 10.672306550075916
+        },
+        "spirit": {
+          "longitude": 199.48327292246785,
+          "sign": "Libra",
+          "degree": 19.483272922467847
+        },
+        "lunarMansion": 23
+      },
+      "siderealAscendant": 260.8441008955439
+    }
+  },
+  {
+    "input": {
+      "date": "2026-10-18",
+      "time": "00:00",
+      "timezone": "Asia/Kolkata",
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "2026-10-17T18:30:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 204.40476375148867,
+            "sign": "Libra",
+            "degree": 24.404763751488673,
+            "speed": 0.9923928716171411,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 284.5722057358844,
+            "sign": "Capricorn",
+            "degree": 14.572205735884381,
+            "speed": 11.83482206661937,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 228.58997980785205,
+            "sign": "Scorpio",
+            "degree": 18.589979807852046,
+            "speed": 0.6681864175341332,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 214.4668881298717,
+            "sign": "Scorpio",
+            "degree": 4.466888129871705,
+            "speed": -0.5255027084564834,
+            "retrograde": true
+          },
+          "mars": {
+            "longitude": 131.1552453331379,
+            "sign": "Leo",
+            "degree": 11.155245333137913,
+            "speed": 0.5443661711625658,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 142.37452419472532,
+            "sign": "Leo",
+            "degree": 22.374524194725325,
+            "speed": 0.15140804070448077,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 10.275846358659985,
+            "sign": "Aries",
+            "degree": 10.275846358659985,
+            "speed": -0.07489121957054848,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 65.14186191465029,
+            "sign": "Gemini",
+            "degree": 5.141861914650292,
+            "speed": -0.02867688350664355,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 2.41453648775154,
+            "sign": "Aries",
+            "degree": 2.41453648775154,
+            "speed": -0.02520517219300835,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 303.069143310006,
+            "sign": "Aquarius",
+            "degree": 3.069143310005984,
+            "speed": 0.0007875004350247587,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 326.82703809752456,
+            "sign": "Aquarius",
+            "degree": 26.827038097524564,
+            "speed": -0.052938748058526684,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 114.57846118478295,
+          "sign": "Cancer",
+          "degree": 24.578461184782952
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0,
+          60.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "jupiter"
+            ],
+            "aspect": "sextile",
+            "orb": 2.030239556763348
+          },
+          {
+            "bodies": [
+              "moon",
+              "mercury"
+            ],
+            "aspect": "sextile",
+            "orb": 4.017774071967665
+          },
+          {
+            "bodies": [
+              "moon",
+              "saturn"
+            ],
+            "aspect": "square",
+            "orb": 4.296359377224405
+          },
+          {
+            "bodies": [
+              "mercury",
+              "jupiter"
+            ],
+            "aspect": "square",
+            "orb": 3.7845443868732787
+          },
+          {
+            "bodies": [
+              "venus",
+              "pluto"
+            ],
+            "aspect": "square",
+            "orb": 1.3977448198657214
+          },
+          {
+            "bodies": [
+              "mars",
+              "saturn"
+            ],
+            "aspect": "trine",
+            "orb": 0.8793989744779083
+          },
+          {
+            "bodies": [
+              "saturn",
+              "uranus"
+            ],
+            "aspect": "sextile",
+            "orb": 5.133984444009684
+          },
+          {
+            "bodies": [
+              "uranus",
+              "neptune"
+            ],
+            "aspect": "sextile",
+            "orb": 2.7273254268987444
+          },
+          {
+            "bodies": [
+              "uranus",
+              "pluto"
+            ],
+            "aspect": "trine",
+            "orb": 2.072718604644308
+          },
+          {
+            "bodies": [
+              "neptune",
+              "pluto"
+            ],
+            "aspect": "sextile",
+            "orb": 0.6546068222544363
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 24.23138746686243,
+        "planets": {
+          "sun": {
+            "longitude": 180.17110073907233,
+            "sign": "Libra",
+            "degree": 0.1711007390723296,
+            "speed": 0.992339641011791,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 260.33854272346815,
+            "sign": "Sagittarius",
+            "degree": 20.33854272346815,
+            "speed": 11.83476880562348,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 204.3563167954357,
+            "sign": "Libra",
+            "degree": 24.356316795435703,
+            "speed": 0.6681332588533231,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 190.23322511745536,
+            "sign": "Libra",
+            "degree": 10.233225117455362,
+            "speed": -0.5255557309732142,
+            "retrograde": true
+          },
+          "mars": {
+            "longitude": 106.92158232072163,
+            "sign": "Cancer",
+            "degree": 16.921582320721626,
+            "speed": 0.5443129107341828,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 118.14086118230901,
+            "sign": "Cancer",
+            "degree": 28.14086118230901,
+            "speed": 0.15135479248133635,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 346.0421833462437,
+            "sign": "Pisces",
+            "degree": 16.04218334624369,
+            "speed": -0.07494454166713982,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 40.90819890223398,
+            "sign": "Taurus",
+            "degree": 10.908198902233977,
+            "speed": -0.028730116357953663,
+            "retrograde": true
+          },
+          "neptune": {
+            "longitude": 338.1808734753352,
+            "sign": "Pisces",
+            "degree": 8.180873475335204,
+            "speed": -0.02525845143114911,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 278.83548029758975,
+            "sign": "Capricorn",
+            "degree": 8.835480297589754,
+            "speed": 0.0007341895660134871,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 302.59337508510833,
+            "sign": "Aquarius",
+            "degree": 2.5933750851083346,
+            "speed": -0.05299197867815335,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 122.59337508510833,
+            "sign": "Leo",
+            "degree": 2.5933750851083346
+          }
+        },
+        "panchanga": {
+          "tithi": 7,
+          "paksha": "shukla",
+          "nakshatra": 20,
+          "pada": 3,
+          "yoga": 7,
+          "karanaHalfTithi": 14
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "night",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 34.411019200387244,
+          "sign": "Taurus",
+          "degree": 4.411019200387244
+        },
+        "spirit": {
+          "longitude": 194.74590316917866,
+          "sign": "Libra",
+          "degree": 14.74590316917866
+        },
+        "lunarMansion": 23
+      },
+      "siderealAscendant": 90.34479817236665
+    }
+  },
+  {
+    "input": {
+      "date": "2100-03-01",
+      "time": "06:30",
+      "timezone": "UTC",
+      "latitude": 35,
+      "longitude": 135
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "2100-03-01T06:30:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 340.7311195586089,
+            "sign": "Pisces",
+            "degree": 10.731119558608896,
+            "speed": 1.0042836063801692,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 224.74287559774214,
+            "sign": "Scorpio",
+            "degree": 14.742875597742142,
+            "speed": 14.389230306598666,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 314.0875328146861,
+            "sign": "Aquarius",
+            "degree": 14.087532814686085,
+            "speed": 0.7594933905223505,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 27.171878736685798,
+            "sign": "Aries",
+            "degree": 27.171878736685798,
+            "speed": 1.0068517521468237,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 59.684714063312676,
+            "sign": "Taurus",
+            "degree": 29.684714063312676,
+            "speed": 0.5698483795761747,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 202.42031296658078,
+            "sign": "Libra",
+            "degree": 22.42031296658078,
+            "speed": -0.06936488270277896,
+            "retrograde": true
+          },
+          "saturn": {
+            "longitude": 206.10443843258733,
+            "sign": "Libra",
+            "degree": 26.10443843258733,
+            "speed": -0.04193001710070944,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 19.40268906264614,
+            "sign": "Aries",
+            "degree": 19.40268906264614,
+            "speed": 0.04741144404688,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 166.11059139890227,
+            "sign": "Virgo",
+            "degree": 16.110591398902272,
+            "speed": -0.027660679253005475,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 32.71692098087014,
+            "sign": "Taurus",
+            "degree": 2.7169209808701424,
+            "speed": 0.015202177906670273,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 347.7993151344954,
+            "sign": "Pisces",
+            "degree": 17.799315134495373,
+            "speed": -0.052953483598740365,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 131.76064001015186,
+          "sign": "Leo",
+          "degree": 11.76064001015186
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0,
+          60.0,
+          90.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "moon"
+            ],
+            "aspect": "trine",
+            "orb": 4.0117560391332745
+          },
+          {
+            "bodies": [
+              "sun",
+              "neptune"
+            ],
+            "aspect": "opposition",
+            "orb": 5.379471840293377
+          },
+          {
+            "bodies": [
+              "moon",
+              "mercury"
+            ],
+            "aspect": "square",
+            "orb": 0.6553427830560565
+          },
+          {
+            "bodies": [
+              "moon",
+              "neptune"
+            ],
+            "aspect": "sextile",
+            "orb": 1.3677158011601307
+          },
+          {
+            "bodies": [
+              "mercury",
+              "uranus"
+            ],
+            "aspect": "sextile",
+            "orb": 5.315156247960033
+          },
+          {
+            "bodies": [
+              "venus",
+              "jupiter"
+            ],
+            "aspect": "opposition",
+            "orb": 4.751565770105003
+          },
+          {
+            "bodies": [
+              "venus",
+              "saturn"
+            ],
+            "aspect": "opposition",
+            "orb": 1.0674403040984544
+          },
+          {
+            "bodies": [
+              "venus",
+              "pluto"
+            ],
+            "aspect": "conjunction",
+            "orb": 5.545042244184344
+          },
+          {
+            "bodies": [
+              "jupiter",
+              "saturn"
+            ],
+            "aspect": "conjunction",
+            "orb": 3.6841254660065488
+          },
+          {
+            "bodies": [
+              "jupiter",
+              "uranus"
+            ],
+            "aspect": "opposition",
+            "orb": 3.017623903934634
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 25.256536065991668,
+        "planets": {
+          "sun": {
+            "longitude": 315.4733936917887,
+            "sign": "Aquarius",
+            "degree": 15.473393691788715,
+            "speed": 1.0042451672114545,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 199.4851497309219,
+            "sign": "Libra",
+            "degree": 19.485149730921904,
+            "speed": 14.38919105992738,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 288.8298069478659,
+            "sign": "Capricorn",
+            "degree": 18.829806947865904,
+            "speed": 0.7594548766025423,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 1.9141528698656,
+            "sign": "Aries",
+            "degree": 1.9141528698656,
+            "speed": 1.0068128385177517,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 34.42698819649246,
+            "sign": "Taurus",
+            "degree": 4.426988196492459,
+            "speed": 0.5698097485321112,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 177.1625870997606,
+            "sign": "Virgo",
+            "degree": 27.1625870997606,
+            "speed": -0.06940296615438343,
+            "retrograde": true
+          },
+          "saturn": {
+            "longitude": 180.84671256576712,
+            "sign": "Libra",
+            "degree": 0.8467125657671204,
+            "speed": -0.0419678436385753,
+            "retrograde": true
+          },
+          "uranus": {
+            "longitude": 354.14496319582594,
+            "sign": "Pisces",
+            "degree": 24.144963195825937,
+            "speed": 0.04737314810942913,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 140.85286553208206,
+            "sign": "Leo",
+            "degree": 20.852865532082063,
+            "speed": -0.02769887322729615,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 7.459195114049943,
+            "sign": "Aries",
+            "degree": 7.459195114049943,
+            "speed": 0.015167391377269182,
+            "retrograde": false
+          },
+          "mean_node": {
+            "longitude": 322.5415892676752,
+            "sign": "Aquarius",
+            "degree": 22.541589267675192,
+            "speed": -0.05299192276523943,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 142.5415892676752,
+            "sign": "Leo",
+            "degree": 22.541589267675192
+          }
+        },
+        "panchanga": {
+          "tithi": 21,
+          "paksha": "krishna",
+          "nakshatra": 15,
+          "pada": 4,
+          "yoga": 12,
+          "karanaHalfTithi": 41
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "day",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 15.772396049285106,
+          "sign": "Aries",
+          "degree": 15.772396049285106
+        },
+        "spirit": {
+          "longitude": 247.7488839710186,
+          "sign": "Sagittarius",
+          "degree": 7.748883971018614
+        },
+        "lunarMansion": 18
+      },
+      "siderealAscendant": 106.50291414333167
+    }
+  },
+  {
+    "input": {
+      "date": "2399-12-20",
+      "time": "23:00",
+      "timezone": "UTC",
+      "latitude": -23,
+      "longitude": -46
+    },
+    "expected": {
+      "schemaVersion": "1",
+      "engineVersion": "0.2.0",
+      "instant": "2399-12-20T23:00:00+00:00",
+      "provenance": {
+        "library": "Swiss Ephemeris",
+        "version": "2.10.03",
+        "model": "Moshier",
+        "timezoneDatabase": "tzdata 2025.2",
+        "supportedYears": [
+          1800,
+          2399
+        ],
+        "timeConvention": "UTC supplied as UT approximation; Swiss delta-T model",
+        "accuracy": "Independent acceptance benchmarking pending"
+      },
+      "western": {
+        "zodiac": "tropical",
+        "planets": {
+          "sun": {
+            "longitude": 268.54004714032203,
+            "sign": "Sagittarius",
+            "degree": 28.54004714032203,
+            "speed": 1.0166948471313921,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 181.16852620461125,
+            "sign": "Libra",
+            "degree": 1.1685262046112541,
+            "speed": 14.041845131256183,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 248.70002425029844,
+            "sign": "Sagittarius",
+            "degree": 8.70002425029844,
+            "speed": 0.3996560798259928,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 254.95306004343269,
+            "sign": "Sagittarius",
+            "degree": 14.953060043432686,
+            "speed": 1.2563991221554818,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 241.37121669737942,
+            "sign": "Sagittarius",
+            "degree": 1.371216697379424,
+            "speed": 0.685996216414789,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 288.87116075093553,
+            "sign": "Capricorn",
+            "degree": 18.87116075093553,
+            "speed": 0.22518609952410826,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 265.97009523200103,
+            "sign": "Sagittarius",
+            "degree": 25.97009523200103,
+            "speed": 0.11798556358759703,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 239.14649717137033,
+            "sign": "Scorpio",
+            "degree": 29.146497171370328,
+            "speed": 0.05635560565380806,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 105.52873171590677,
+            "sign": "Cancer",
+            "degree": 15.528731715906773,
+            "speed": -0.0268318222490762,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 86.54037908238715,
+            "sign": "Gemini",
+            "degree": 26.540379082387147,
+            "speed": -0.019467581628929587,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 309.30588641615225,
+            "sign": "Aquarius",
+            "degree": 9.305886416152248,
+            "speed": -0.05296968132805144,
+            "retrograde": true
+          }
+        },
+        "ascendant": {
+          "longitude": 106.76791222015498,
+          "sign": "Cancer",
+          "degree": 16.767912220154983
+        },
+        "houseSystem": "whole-sign",
+        "cusps": [
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0,
+          0.0,
+          30.0,
+          60.0
+        ],
+        "aspects": [
+          {
+            "bodies": [
+              "sun",
+              "moon"
+            ],
+            "aspect": "square",
+            "orb": 2.628479064289195
+          },
+          {
+            "bodies": [
+              "sun",
+              "saturn"
+            ],
+            "aspect": "conjunction",
+            "orb": 2.569951908321002
+          },
+          {
+            "bodies": [
+              "sun",
+              "pluto"
+            ],
+            "aspect": "opposition",
+            "orb": 1.999668057934855
+          },
+          {
+            "bodies": [
+              "moon",
+              "mars"
+            ],
+            "aspect": "sextile",
+            "orb": 0.20269049276816986
+          },
+          {
+            "bodies": [
+              "moon",
+              "saturn"
+            ],
+            "aspect": "square",
+            "orb": 5.198430972610225
+          },
+          {
+            "bodies": [
+              "moon",
+              "uranus"
+            ],
+            "aspect": "sextile",
+            "orb": 2.0220290332409263
+          },
+          {
+            "bodies": [
+              "moon",
+              "pluto"
+            ],
+            "aspect": "square",
+            "orb": 4.628147122224107
+          },
+          {
+            "bodies": [
+              "mars",
+              "uranus"
+            ],
+            "aspect": "conjunction",
+            "orb": 2.224719526009096
+          },
+          {
+            "bodies": [
+              "jupiter",
+              "neptune"
+            ],
+            "aspect": "opposition",
+            "orb": 3.342429035028772
+          },
+          {
+            "bodies": [
+              "saturn",
+              "pluto"
+            ],
+            "aspect": "opposition",
+            "orb": 0.5702838503860903
+          }
+        ]
+      },
+      "vedic": {
+        "zodiac": "sidereal",
+        "ayanamsha": "Lahiri",
+        "ayanamshaDegrees": 29.448999456878823,
+        "planets": {
+          "sun": {
+            "longitude": 239.08742500728954,
+            "sign": "Scorpio",
+            "degree": 29.08742500728954,
+            "speed": 1.0166727801786513,
+            "retrograde": false
+          },
+          "moon": {
+            "longitude": 151.7159040715787,
+            "sign": "Virgo",
+            "degree": 1.7159040715787057,
+            "speed": 14.041822681888357,
+            "retrograde": false
+          },
+          "mercury": {
+            "longitude": 219.24740211726592,
+            "sign": "Scorpio",
+            "degree": 9.24740211726592,
+            "speed": 0.39963410412564593,
+            "retrograde": false
+          },
+          "venus": {
+            "longitude": 225.5004379104002,
+            "sign": "Scorpio",
+            "degree": 15.500437910400194,
+            "speed": 1.2563770697327974,
+            "retrograde": false
+          },
+          "mars": {
+            "longitude": 211.9185945643469,
+            "sign": "Scorpio",
+            "degree": 1.918594564346904,
+            "speed": 0.6859741567741372,
+            "retrograde": false
+          },
+          "jupiter": {
+            "longitude": 259.41853861790304,
+            "sign": "Sagittarius",
+            "degree": 19.41853861790304,
+            "speed": 0.22516403717428057,
+            "retrograde": false
+          },
+          "saturn": {
+            "longitude": 236.51747309896854,
+            "sign": "Scorpio",
+            "degree": 26.517473098968537,
+            "speed": 0.11796350423527331,
+            "retrograde": false
+          },
+          "uranus": {
+            "longitude": 209.69387503833778,
+            "sign": "Libra",
+            "degree": 29.69387503833778,
+            "speed": 0.056333549768659986,
+            "retrograde": false
+          },
+          "neptune": {
+            "longitude": 76.07610958287427,
+            "sign": "Gemini",
+            "degree": 16.076109582874267,
+            "speed": -0.026853912039482526,
+            "retrograde": true
+          },
+          "pluto": {
+            "longitude": 57.087756949354635,
+            "sign": "Taurus",
+            "degree": 27.087756949354635,
+            "speed": -0.019489599858889792,
+            "retrograde": true
+          },
+          "mean_node": {
+            "longitude": 279.8532642831197,
+            "sign": "Capricorn",
+            "degree": 9.8532642831197,
+            "speed": -0.05299174825652492,
+            "retrograde": true
+          },
+          "ketu": {
+            "longitude": 99.8532642831197,
+            "sign": "Cancer",
+            "degree": 9.8532642831197
+          }
+        },
+        "panchanga": {
+          "tithi": 23,
+          "paksha": "krishna",
+          "nakshatra": 12,
+          "pada": 2,
+          "yoga": 3,
+          "karanaHalfTithi": 46
+        }
+      },
+      "arabic": {
+        "convention": "Hellenistic-derived Fortune/Spirit; reverse formulas by sect; equal tropical lunar mansions",
+        "sect": "night",
+        "sectRule": "Sun geometric centre altitude >= 0 degrees",
+        "fortune": {
+          "longitude": 194.13943315586576,
+          "sign": "Libra",
+          "degree": 14.13943315586576
+        },
+        "spirit": {
+          "longitude": 19.396391284444206,
+          "sign": "Aries",
+          "degree": 19.396391284444206
+        },
+        "lunarMansion": 15
+      },
+      "siderealAscendant": 77.31529008712246
+    }
+  }
+]

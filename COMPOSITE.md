@@ -24,4 +24,6 @@ Browser requests to public feed JSON are allowed through explicit CORS headers. 
 
 ## Operational independence
 
+The **Věda Célestes** tab on Corps Célestes runs `browser/chart-worker.mjs` and the bundled Swiss Ephemeris WebAssembly engine on the visitor's device. Chart inputs do not enter the daily-feed adapter or any HTTP request. The main repository copies the versioned public browser files under `/veda/v0.3.0/`; that directory is a release snapshot of this component, not a private engine service. Changing tabs or clearing the chart terminates its worker and discards in-memory details. Export is an explicit local JSON download.
+
 Static snapshots run through 2027-10-18 and are selected daily without a running calculation host. Regenerate and redeploy before coverage expires. A failure in this component must leave the shop and main-site rendering available, using a clearly dated last-known reading where appropriate.
