@@ -1,0 +1,15 @@
+{
+  "name": "veda-celestes",
+  "version": "0.1.0",
+  "license": "AGPL-3.0",
+  "private": false,
+  "type": "module",
+  "description": "A privacy-first Vedic astrology calculation engine.",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/core/engine.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

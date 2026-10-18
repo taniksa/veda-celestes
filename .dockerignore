@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!requirements.txt
+!veda/
+!veda/*.py
+!veda/exhibition.html
