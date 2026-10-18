@@ -1,8 +1,10 @@
 # Věda Célestes
 
-**Věda Célestes** is a privacy-first, open-source calculation prototype for Vedic, Western and selected Arabic astrology methods.
+**Věda Célestes** is a privacy-first, open-source calculation experience for Vedic, Western, selected Arabic/medieval methods and a distinct Jewish-calendar lens. Original symbolic readings carry their specific chart evidence; astronomical measurements and cultural interpretation are kept separate.
 
 Public static exhibition: https://veda-celestes.pages.dev/
+
+Integrated experience: https://tanishaksamudr.com/corps-celestes?edition=veda-celestes . The adjacent **View the sky** tab calculates a dated Bengaluru noon reference sky; **Jewish** opens the sunset-aware calendar and seasonal lens. All runtime computation is browser-native, with no paid compute service or birth-data API.
 
 License: AGPL-3.0. See LICENSE and THIRD_PARTY.md. Live daily-feed integration and the browser chart component are documented in COMPOSITE.md and browser/README.md.
 
@@ -20,6 +22,8 @@ License: AGPL-3.0. See LICENSE and THIRD_PARTY.md. Live daily-feed integration a
 The native Python path uses the maintained `pysweph` wrapper over Swiss Ephemeris C. It generates local planetary positions, selected Vedic/Western/Arabic calculations, daily feeds and a browser exhibition. Run `start-local.ps1` and open http://127.0.0.1:8088/ . See [EVALUATION.md](EVALUATION.md) for verified results and remaining limitations, and [RUNNING.md](RUNNING.md) for packaging notes.
 
 ## Earlier JavaScript foundation
+
+The current browser experience adds D9, Vimshottari periods, sign-level aspects/dignities, birthday profections, reference transits, unequal planetary hours and Hebrew calendar helpers. See [browser methods](browser/METHODS.md) and [independent benchmarks](benchmark/README.md) for exact conventions and sample limits. The native Python path remains the separate earlier calculation/feed service.
 
 The initial code supplies validation, a structured error model, a safe computation boundary and an ephemeris-provider contract. Accurate chart, panchanga, transit and dasha modules will be added only once their astronomical algorithms and data provenance are verified.
 

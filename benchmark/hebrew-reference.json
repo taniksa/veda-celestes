@@ -1,0 +1,166 @@
+{
+  "source": "Hebcal Hebrew Date Converter API",
+  "retrievedAt": "2026-10-18T11:45:33.124361+00:00",
+  "records": [
+    {
+      "date": "2000-01-01",
+      "query": "https://www.hebcal.com/converter?cfg=json&date=2000-01-01&g2h=1&strict=1",
+      "response": {
+        "gy": 2000,
+        "gm": 1,
+        "gd": 1,
+        "afterSunset": false,
+        "hy": 5760,
+        "hm": "Tevet",
+        "hd": 23,
+        "hebrew": "כ״ג בְּטֵבֵת תש״ס",
+        "heDateParts": {
+          "y": "תש״ס",
+          "m": "טבת",
+          "d": "כ״ג"
+        },
+        "events": [
+          "Molad Sh’vat: Thursday, 6:40pm and 13 chalakim",
+          "Shabbat Mevarchim Chodesh Sh’vat",
+          "Parashat Shemot"
+        ]
+      }
+    },
+    {
+      "date": "2023-09-16",
+      "query": "https://www.hebcal.com/converter?cfg=json&date=2023-09-16&g2h=1&strict=1",
+      "response": {
+        "gy": 2023,
+        "gm": 9,
+        "gd": 16,
+        "afterSunset": false,
+        "hy": 5784,
+        "hm": "Tishrei",
+        "hd": 1,
+        "hebrew": "א׳ בְּתִשְׁרֵי תשפ״ד",
+        "heDateParts": {
+          "y": "תשפ״ד",
+          "m": "תשרי",
+          "d": "א׳"
+        },
+        "events": [
+          "Rosh Hashana 5784"
+        ]
+      }
+    },
+    {
+      "date": "2024-03-24",
+      "query": "https://www.hebcal.com/converter?cfg=json&date=2024-03-24&g2h=1&strict=1",
+      "response": {
+        "gy": 2024,
+        "gm": 3,
+        "gd": 24,
+        "afterSunset": false,
+        "hy": 5784,
+        "hm": "Adar II",
+        "hd": 14,
+        "hebrew": "י״ד בַּאֲדָר ב׳ תשפ״ד",
+        "heDateParts": {
+          "y": "תשפ״ד",
+          "m": "אדר ב׳",
+          "d": "י״ד"
+        },
+        "events": [
+          "Purim",
+          "Parashat Tzav"
+        ]
+      }
+    },
+    {
+      "date": "2024-04-23",
+      "query": "https://www.hebcal.com/converter?cfg=json&date=2024-04-23&g2h=1&strict=1",
+      "response": {
+        "gy": 2024,
+        "gm": 4,
+        "gd": 23,
+        "afterSunset": false,
+        "hy": 5784,
+        "hm": "Nisan",
+        "hd": 15,
+        "hebrew": "ט״ו בְּנִיסָן תשפ״ד",
+        "heDateParts": {
+          "y": "תשפ״ד",
+          "m": "ניסן",
+          "d": "ט״ו"
+        },
+        "events": [
+          "Pesach I"
+        ]
+      }
+    },
+    {
+      "date": "2024-06-12",
+      "query": "https://www.hebcal.com/converter?cfg=json&date=2024-06-12&g2h=1&strict=1",
+      "response": {
+        "gy": 2024,
+        "gm": 6,
+        "gd": 12,
+        "afterSunset": false,
+        "hy": 5784,
+        "hm": "Sivan",
+        "hd": 6,
+        "hebrew": "ו׳ בְּסִיוָן תשפ״ד",
+        "heDateParts": {
+          "y": "תשפ״ד",
+          "m": "סיון",
+          "d": "ו׳"
+        },
+        "events": [
+          "Shavuot I",
+          "Parashat Nasso"
+        ]
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "query": "https://www.hebcal.com/converter?cfg=json&date=2025-01-01&g2h=1&strict=1",
+      "response": {
+        "gy": 2025,
+        "gm": 1,
+        "gd": 1,
+        "afterSunset": false,
+        "hy": 5785,
+        "hm": "Tevet",
+        "hd": 1,
+        "hebrew": "א׳ בְּטֵבֵת תשפ״ה",
+        "heDateParts": {
+          "y": "תשפ״ה",
+          "m": "טבת",
+          "d": "א׳"
+        },
+        "events": [
+          "Rosh Chodesh Tevet",
+          "Chanukah day 7",
+          "Parashat Vayigash"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "query": "https://www.hebcal.com/converter?cfg=json&date=2026-10-18&g2h=1&strict=1",
+      "response": {
+        "gy": 2026,
+        "gm": 10,
+        "gd": 18,
+        "afterSunset": false,
+        "hy": 5787,
+        "hm": "Cheshvan",
+        "hd": 7,
+        "hebrew": "ז׳ בְּחֶשְׁוָן תשפ״ז",
+        "heDateParts": {
+          "y": "תשפ״ז",
+          "m": "חשון",
+          "d": "ז׳"
+        },
+        "events": [
+          "Parashat Lech-Lecha"
+        ]
+      }
+    }
+  ]
+}

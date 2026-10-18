@@ -1,0 +1,299 @@
+{
+  "source": "NASA/JPL Horizons observer ephemerides",
+  "referenceRetrievedAt": "2026-10-18T11:33:23.081029+00:00",
+  "model": "Swiss Ephemeris 2.10.03 / Moshier / browser WASM",
+  "observations": 40,
+  "epochs": [
+    "2000-01-01T12:00:00+00:00",
+    "2010-06-21T00:00:00+00:00",
+    "2020-12-21T12:00:00+00:00",
+    "2026-10-18T06:30:00+00:00"
+  ],
+  "thresholdArcseconds": 60,
+  "maxLongitudeErrorArcseconds": 0.6560119436471723,
+  "maxLatitudeErrorArcseconds": 0.40588148421107917,
+  "pass": true,
+  "limitations": "Geocentric apparent ecliptic longitude/latitude only. Four sampled epochs (2000–2026), not all dates, houses, rise/set times, traditional formulas or interpretive validity. Horizons IAU76/80 and Swiss frames/time models differ slightly.",
+  "results": [
+    {
+      "body": "sun",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.037711235836468404,
+      "latitudeErrorArcseconds": 0.020784548965280366,
+      "pass": true
+    },
+    {
+      "body": "sun",
+      "instant": "2010-06-21T00:00:00+00:00",
+      "longitudeErrorArcseconds": 0.02079040223179618,
+      "latitudeErrorArcseconds": 0.03486212627752098,
+      "pass": true
+    },
+    {
+      "body": "sun",
+      "instant": "2020-12-21T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.07394647909677587,
+      "latitudeErrorArcseconds": 0.03665761351627177,
+      "pass": true
+    },
+    {
+      "body": "sun",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "longitudeErrorArcseconds": 0.029371007667577942,
+      "latitudeErrorArcseconds": 0.0027308151882823404,
+      "pass": true
+    },
+    {
+      "body": "moon",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.03802172559517203,
+      "latitudeErrorArcseconds": 0.26376838614723397,
+      "pass": true
+    },
+    {
+      "body": "moon",
+      "instant": "2010-06-21T00:00:00+00:00",
+      "longitudeErrorArcseconds": 0.4101325749161333,
+      "latitudeErrorArcseconds": 0.18049043759091887,
+      "pass": true
+    },
+    {
+      "body": "moon",
+      "instant": "2020-12-21T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.6560119436471723,
+      "latitudeErrorArcseconds": 0.15298494042781385,
+      "pass": true
+    },
+    {
+      "body": "moon",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "longitudeErrorArcseconds": 0.15923789114822284,
+      "latitudeErrorArcseconds": 0.40588148421107917,
+      "pass": true
+    },
+    {
+      "body": "mercury",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.018386954525340116,
+      "latitudeErrorArcseconds": 0.02225473185855087,
+      "pass": true
+    },
+    {
+      "body": "mercury",
+      "instant": "2010-06-21T00:00:00+00:00",
+      "longitudeErrorArcseconds": 0.004670674343287828,
+      "latitudeErrorArcseconds": 0.028667252485198302,
+      "pass": true
+    },
+    {
+      "body": "mercury",
+      "instant": "2020-12-21T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.08072019545579678,
+      "latitudeErrorArcseconds": 0.03558823269438349,
+      "pass": true
+    },
+    {
+      "body": "mercury",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "longitudeErrorArcseconds": 0.050077851165042375,
+      "latitudeErrorArcseconds": 0.021333366698783607,
+      "pass": true
+    },
+    {
+      "body": "venus",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.06813420714024687,
+      "latitudeErrorArcseconds": 0.02451288739031554,
+      "pass": true
+    },
+    {
+      "body": "venus",
+      "instant": "2010-06-21T00:00:00+00:00",
+      "longitudeErrorArcseconds": 0.06389878399204463,
+      "latitudeErrorArcseconds": 0.057903375742984764,
+      "pass": true
+    },
+    {
+      "body": "venus",
+      "instant": "2020-12-21T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.11011838373633509,
+      "latitudeErrorArcseconds": 0.022744809954655665,
+      "pass": true
+    },
+    {
+      "body": "venus",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "longitudeErrorArcseconds": 0.021944768332105014,
+      "latitudeErrorArcseconds": 0.03308882996080342,
+      "pass": true
+    },
+    {
+      "body": "mars",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.07638667293576873,
+      "latitudeErrorArcseconds": 0.02789378762768635,
+      "pass": true
+    },
+    {
+      "body": "mars",
+      "instant": "2010-06-21T00:00:00+00:00",
+      "longitudeErrorArcseconds": 0.08845550887599529,
+      "latitudeErrorArcseconds": 0.0001563475325205843,
+      "pass": true
+    },
+    {
+      "body": "mars",
+      "instant": "2020-12-21T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.04854334283663775,
+      "latitudeErrorArcseconds": 0.0487690358992765,
+      "pass": true
+    },
+    {
+      "body": "mars",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "longitudeErrorArcseconds": 0.04995580156901269,
+      "latitudeErrorArcseconds": 0.05081383185743249,
+      "pass": true
+    },
+    {
+      "body": "jupiter",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.1374860817577428,
+      "latitudeErrorArcseconds": 0.050272123587191686,
+      "pass": true
+    },
+    {
+      "body": "jupiter",
+      "instant": "2010-06-21T00:00:00+00:00",
+      "longitudeErrorArcseconds": 0.0031663441404816695,
+      "latitudeErrorArcseconds": 0.02607840003943096,
+      "pass": true
+    },
+    {
+      "body": "jupiter",
+      "instant": "2020-12-21T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.15874258533585817,
+      "latitudeErrorArcseconds": 0.05740008978987188,
+      "pass": true
+    },
+    {
+      "body": "jupiter",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "longitudeErrorArcseconds": 0.2431673356113606,
+      "latitudeErrorArcseconds": 0.0720498635169875,
+      "pass": true
+    },
+    {
+      "body": "saturn",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.008481606892019045,
+      "latitudeErrorArcseconds": 0.11068337082065227,
+      "pass": true
+    },
+    {
+      "body": "saturn",
+      "instant": "2010-06-21T00:00:00+00:00",
+      "longitudeErrorArcseconds": 0.10004394471252454,
+      "latitudeErrorArcseconds": 0.06583309763730227,
+      "pass": true
+    },
+    {
+      "body": "saturn",
+      "instant": "2020-12-21T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.12031924379698467,
+      "latitudeErrorArcseconds": 0.036206012505490826,
+      "pass": true
+    },
+    {
+      "body": "saturn",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "longitudeErrorArcseconds": 0.030930101820558775,
+      "latitudeErrorArcseconds": 0.0628514504249722,
+      "pass": true
+    },
+    {
+      "body": "uranus",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.19859697476931615,
+      "latitudeErrorArcseconds": 0.031959390829383594,
+      "pass": true
+    },
+    {
+      "body": "uranus",
+      "instant": "2010-06-21T00:00:00+00:00",
+      "longitudeErrorArcseconds": 0.017367729833495105,
+      "latitudeErrorArcseconds": 0.02225809034004378,
+      "pass": true
+    },
+    {
+      "body": "uranus",
+      "instant": "2020-12-21T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.10487978838682466,
+      "latitudeErrorArcseconds": 0.0361250447695749,
+      "pass": true
+    },
+    {
+      "body": "uranus",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "longitudeErrorArcseconds": 0.08033882786548929,
+      "latitudeErrorArcseconds": 0.04765283609419191,
+      "pass": true
+    },
+    {
+      "body": "neptune",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.07011488114585518,
+      "latitudeErrorArcseconds": 0.0411020936304185,
+      "pass": true
+    },
+    {
+      "body": "neptune",
+      "instant": "2010-06-21T00:00:00+00:00",
+      "longitudeErrorArcseconds": 0.1916883629746735,
+      "latitudeErrorArcseconds": 0.07932101119454416,
+      "pass": true
+    },
+    {
+      "body": "neptune",
+      "instant": "2020-12-21T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.008602547359259916,
+      "latitudeErrorArcseconds": 0.08342596603698738,
+      "pass": true
+    },
+    {
+      "body": "neptune",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "longitudeErrorArcseconds": 0.34147741898777895,
+      "latitudeErrorArcseconds": 0.2317751365232823,
+      "pass": true
+    },
+    {
+      "body": "pluto",
+      "instant": "2000-01-01T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.19999173246105784,
+      "latitudeErrorArcseconds": 0.2089381591517281,
+      "pass": true
+    },
+    {
+      "body": "pluto",
+      "instant": "2010-06-21T00:00:00+00:00",
+      "longitudeErrorArcseconds": 0.17997907425524318,
+      "latitudeErrorArcseconds": 0.19379887174721944,
+      "pass": true
+    },
+    {
+      "body": "pluto",
+      "instant": "2020-12-21T12:00:00+00:00",
+      "longitudeErrorArcseconds": 0.18042476640403038,
+      "latitudeErrorArcseconds": 0.31240163370993557,
+      "pass": true
+    },
+    {
+      "body": "pluto",
+      "instant": "2026-10-18T06:30:00+00:00",
+      "longitudeErrorArcseconds": 0.48107354132298497,
+      "latitudeErrorArcseconds": 0.014338099833821616,
+      "pass": true
+    }
+  ]
+}

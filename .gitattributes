@@ -1,0 +1,3 @@
+# Preserve independently archived response bytes: SHA-256 must survive Windows checkout.
+benchmark/horizons-raw/*.json -text
+browser/lib/*.wasm -text
